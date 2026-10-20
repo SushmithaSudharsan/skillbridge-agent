@@ -5,7 +5,15 @@ from pathlib import Path
 
 from pydantic import BaseModel, ConfigDict, TypeAdapter, ValidationError
 
-from skillbridge.models import Course, Level, Project, RoleFamily, RoleProfile
+from skillbridge.models import (
+    Course,
+    Level,
+    Project,
+    RoleFamily,
+    RoleProfile,
+    Seniority,
+    TitleMatch,
+)
 
 DEFAULT_DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 SENIORITIES = ("fresher", "mid", "senior")
@@ -24,6 +32,7 @@ class Catalog(BaseModel):
     profiles: list[RoleProfile]
     courses: list[Course]
     projects: list[Project]
+    seniority_words: dict[Seniority, list[str]]
 
     @property
     def skills(self) -> list[str]:
@@ -51,15 +60,55 @@ class Catalog(BaseModel):
                 return family
         return None
 
+    def parse_title(self, title: str) -> TitleMatch | None:
+        """Split a title like 'Senior LLM Engineer' into family and seniority.
+
+        Returns None if the job title is not one we support.
+        """
+        text = title.casefold().replace("entry level", "entry-level").replace("mid level", "mid-level")
+        words = text.split()
+        found: set[str] = set()
+
+        # Take level words off the front: "Senior", "Junior", "Lead", ...
+        while words:
+            seniority = self._seniority_of(words[0])
+            if seniority is None:
+                break
+            found.add(seniority)
+            words.pop(0)
+
+        # Take level words off the end: "I", "II", "III"
+        while words:
+            seniority = self._seniority_of(words[-1])
+            if seniority is None:
+                break
+            found.add(seniority)
+            words.pop()
+
+        family = self.family_for_title(" ".join(words))
+        if family is None:
+            return None
+        # Exactly one level found = use it. None, or conflicting words = unknown.
+        return TitleMatch(family=family.name, seniority=found.pop() if len(found) == 1 else None)
+
+    def _seniority_of(self, word: str) -> str | None:
+        """Which seniority a single word means, e.g. 'Sr.' -> 'senior'."""
+        word = word.strip(".,()")
+        for seniority, level_words in self.seniority_words.items():
+            if word in (w.casefold() for w in level_words):
+                return seniority
+        return None
+
 
 def load_catalog(data_dir: Path | None = None) -> Catalog:
     """Read all data files, validate them, and check they agree."""
     folder = Path(data_dir) if data_dir else DEFAULT_DATA_DIR
     catalog = Catalog(
-        families=_read(folder / "roles.json", RoleFamily),
-        profiles=_read(folder / "role_profiles.json", RoleProfile),
-        courses=_read(folder / "courses.json", Course),
-        projects=_read(folder / "portfolio_projects.json", Project),
+        families=_read(folder / "roles.json", list[RoleFamily]),
+        profiles=_read(folder / "role_profiles.json", list[RoleProfile]),
+        courses=_read(folder / "courses.json", list[Course]),
+        projects=_read(folder / "portfolio_projects.json", list[Project]),
+        seniority_words=_read(folder / "seniority_words.json", dict[Seniority, list[str]]),
     )
     problems = check_catalog(catalog)
     if problems:
@@ -67,8 +116,8 @@ def load_catalog(data_dir: Path | None = None) -> Catalog:
     return catalog
 
 
-def _read(path: Path, model: type[BaseModel]) -> list:
-    """Read one JSON file as a list of `model` objects."""
+def _read(path: Path, shape):
+    """Read one JSON file and check it has the given shape, e.g. list[Course]."""
     try:
         raw = json.loads(path.read_text(encoding="utf-8"))
     except FileNotFoundError:
@@ -76,7 +125,7 @@ def _read(path: Path, model: type[BaseModel]) -> list:
     except json.JSONDecodeError as error:
         raise CatalogError(f"{path.name} is not valid JSON: {error}") from None
     try:
-        return TypeAdapter(list[model]).validate_python(raw)
+        return TypeAdapter(shape).validate_python(raw)
     except ValidationError as error:
         raise CatalogError(f"{path.name} has invalid entries:\n{error}") from None
 
@@ -141,6 +190,14 @@ def check_catalog(catalog: Catalog) -> list[str]:
                     problems.append(
                         f"{label}: no {Level(step).name.title()} course for {req.skill}"
                     )
+
+    # 6. Seniority words: all three levels present, no word in two levels
+    for seniority in SENIORITIES:
+        if not catalog.seniority_words.get(seniority):
+            problems.append(f"No seniority words for: {seniority}")
+    all_words = [w.casefold() for words in catalog.seniority_words.values() for w in words]
+    for word in _duplicates(all_words):
+        problems.append(f"Seniority word used for more than one level: {word}")
 
     return problems
 

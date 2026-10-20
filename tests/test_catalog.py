@@ -11,7 +11,7 @@ SENIORITIES = ["fresher", "mid", "senior"]
 
 # ---------- A tiny, valid data set we can break on purpose ----------
 
-def tiny_data() -> dict[str, list]:
+def tiny_data() -> dict:
     """The smallest data set that passes every check."""
     return {
         "roles.json": [
@@ -32,11 +32,14 @@ def tiny_data() -> dict[str, list]:
              "description": "Query sales data.", "skills": ["SQL"],
              "difficulty": "Beginner", "careers": ["Data Analyst"]},
         ],
+        "seniority_words.json": {
+            "fresher": ["junior"], "mid": ["ii"], "senior": ["senior"],
+        },
     }
 
 
-def write(folder, data: dict[str, list]) -> None:
-    """Write each list in `data` to a JSON file inside `folder`."""
+def write(folder, data: dict) -> None:
+    """Write each entry in `data` to a JSON file inside `folder`."""
     for filename, rows in data.items():
         (folder / filename).write_text(json.dumps(rows), encoding="utf-8")
 
@@ -181,3 +184,49 @@ def test_real_titles_map_to_families():
     assert catalog.family_for_title("Machine Learning Engineer").name == "ML Engineer"
     assert catalog.family_for_title("LLM Engineer").name == "GenAI Engineer"
     assert catalog.family_for_title("ML Platform Engineer").name == "MLOps Engineer"
+
+
+# ---------- Splitting job titles into family + seniority ----------
+
+@pytest.mark.parametrize(
+    "title, family, seniority",
+    [
+        ("Senior LLM Engineer", "GenAI Engineer", "senior"),
+        ("Sr. Data Scientist", "Data Scientist", "senior"),
+        ("Lead Machine Learning Engineer", "ML Engineer", "senior"),
+        ("Staff ML Platform Engineer", "MLOps Engineer", "senior"),
+        ("Junior Data Analyst", "Data Analyst", "fresher"),
+        ("Associate AI Engineer", "GenAI Engineer", "fresher"),
+        ("Entry Level BI Analyst", "Data Analyst", "fresher"),
+        ("Data Scientist I", "Data Scientist", "fresher"),
+        ("ML Engineer II", "ML Engineer", "mid"),
+        ("Data Scientist III", "Data Scientist", "senior"),
+        ("AI/ML Engineer", "ML Engineer", None),             # no level word
+        ("Senior Associate Data Scientist", "Data Scientist", None),   # conflicting words
+    ],
+)
+def test_parse_real_titles(title, family, seniority):
+    match = load_catalog().parse_title(title)
+    assert match.family == family
+    assert match.seniority == seniority
+
+
+@pytest.mark.parametrize("title", ["Senior Frontend Developer", "Lead", "Cloud Engineer"])
+def test_parse_unsupported_title_returns_none(title):
+    assert load_catalog().parse_title(title) is None
+
+
+def test_seniority_word_in_two_levels_is_rejected(tmp_path):
+    data = tiny_data()
+    data["seniority_words.json"]["mid"] = ["ii", "junior"]
+    write(tmp_path, data)
+    with pytest.raises(CatalogError, match="more than one level: junior"):
+        load_catalog(tmp_path)
+
+
+def test_missing_seniority_level_is_rejected(tmp_path):
+    data = tiny_data()
+    del data["seniority_words.json"]["mid"]
+    write(tmp_path, data)
+    with pytest.raises(CatalogError, match="No seniority words for: mid"):
+        load_catalog(tmp_path)

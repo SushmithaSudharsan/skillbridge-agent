@@ -114,6 +114,25 @@ class RoleProfile(BaseModel):
     requirements: list[Requirement] = Field(min_length=1)
 
 
+class TitleMatch(BaseModel):
+    """A job title split into its role family and seniority."""
+
+    model_config = ConfigDict(frozen=True)
+
+    family: str
+    seniority: Seniority | None   # None = the title doesn't say, or the words conflict
+
+
+class SeniorityDecision(BaseModel):
+    """Which seniority a job is, where that came from, and why."""
+
+    model_config = ConfigDict(frozen=True)
+
+    seniority: Seniority | None
+    source: Literal["jd_years", "jd_words", "title", "jd_hints", "unknown"]
+    note: str
+
+
 # ---------- Student ----------
 
 class StudentSkill(BaseModel):
