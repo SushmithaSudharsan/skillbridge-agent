@@ -1,17 +1,19 @@
 [
     {
         "course_id": "C001",
-        "course_name": "Excel for Data Analysis",
+        "course_name": "Python Programming Fundamentals",
         "skills_taught": [
-            "Excel",
-            "Data Cleaning",
-            "Data Analysis"
+            "Python"
         ],
         "prerequisites": [],
         "difficulty": "Beginner",
-        "duration_weeks": 2,
+        "duration_weeks": 3,
         "careers": [
-            "Data Analyst"
+            "Data Analyst",
+            "Data Scientist",
+            "ML Engineer",
+            "GenAI Engineer",
+            "MLOps Engineer"
         ]
     },
     {
@@ -31,51 +33,43 @@
     },
     {
         "course_id": "C003",
-        "course_name": "Advanced SQL",
+        "course_name": "Excel for Data Analysis",
         "skills_taught": [
-            "SQL",
-            "Advanced SQL"
+            "Excel"
         ],
-        "prerequisites": [
-            "SQL"
-        ],
-        "difficulty": "Intermediate",
-        "duration_weeks": 3,
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
         "careers": [
-            "Data Analyst",
-            "Data Scientist"
+            "Data Analyst"
         ]
     },
     {
         "course_id": "C004",
-        "course_name": "Statistics for Data Science",
+        "course_name": "Statistics Fundamentals",
         "skills_taught": [
-            "Statistics",
-            "Probability",
-            "Data Analysis"
+            "Statistics"
         ],
         "prerequisites": [],
-        "difficulty": "Intermediate",
-        "duration_weeks": 4,
+        "difficulty": "Beginner",
+        "duration_weeks": 3,
         "careers": [
             "Data Analyst",
-            "Data Scientist"
+            "Data Scientist",
+            "ML Engineer"
         ]
     },
     {
         "course_id": "C005",
-        "course_name": "Python for Data Analysis",
+        "course_name": "Data Visualization Basics",
         "skills_taught": [
-            "Python",
-            "Pandas",
-            "NumPy",
-            "Data Analysis"
+            "Data Visualization"
         ],
         "prerequisites": [
-            "Python"
+            "Excel"
         ],
-        "difficulty": "Intermediate",
-        "duration_weeks": 4,
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
         "careers": [
             "Data Analyst",
             "Data Scientist"
@@ -86,8 +80,7 @@
         "course_name": "Power BI Fundamentals",
         "skills_taught": [
             "Power BI",
-            "Data Visualization",
-            "Dashboard Development"
+            "Data Visualization"
         ],
         "prerequisites": [
             "Excel"
@@ -100,33 +93,307 @@
     },
     {
         "course_id": "C007",
+        "course_name": "Git and GitHub",
+        "skills_taught": [
+            "Git"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 1,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist",
+            "ML Engineer",
+            "GenAI Engineer",
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C008",
+        "course_name": "Linux Command Line",
+        "skills_taught": [
+            "Linux"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "ML Engineer",
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C009",
+        "course_name": "Communication for Data Professionals",
+        "skills_taught": [
+            "Communication"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist"
+        ]
+    },
+    {
+        "course_id": "C010",
+        "course_name": "Pandas and NumPy Fundamentals",
+        "skills_taught": [
+            "Pandas",
+            "NumPy"
+        ],
+        "prerequisites": [
+            "Python"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C011",
         "course_name": "Machine Learning Fundamentals",
         "skills_taught": [
             "Machine Learning",
-            "Scikit-learn",
-            "Model Evaluation"
+            "Scikit-learn"
         ],
         "prerequisites": [
             "Python",
             "Statistics"
         ],
-        "difficulty": "Intermediate",
-        "duration_weeks": 5,
+        "difficulty": "Beginner",
+        "duration_weeks": 4,
+        "careers": [
+            "Data Scientist",
+            "ML Engineer",
+            "MLOps Engineer",
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C012",
+        "course_name": "Docker Fundamentals",
+        "skills_taught": [
+            "Docker"
+        ],
+        "prerequisites": [
+            "Linux"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "ML Engineer",
+            "MLOps Engineer",
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C013",
+        "course_name": "Cloud Computing Fundamentals",
+        "skills_taught": [
+            "Cloud Computing"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 3,
+        "careers": [
+            "ML Engineer",
+            "MLOps Engineer",
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C014",
+        "course_name": "REST APIs with FastAPI",
+        "skills_taught": [
+            "REST APIs"
+        ],
+        "prerequisites": [
+            "Python"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "ML Engineer",
+            "GenAI Engineer",
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C015",
+        "course_name": "Deep Learning Fundamentals",
+        "skills_taught": [
+            "Deep Learning",
+            "PyTorch"
+        ],
+        "prerequisites": [
+            "Python",
+            "Machine Learning"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 4,
         "careers": [
             "Data Scientist",
             "ML Engineer"
         ]
     },
     {
-        "course_id": "C008",
-        "course_name": "Data Visualization with Python",
+        "course_id": "C016",
+        "course_name": "LLM Fundamentals",
         "skills_taught": [
-            "Data Visualization",
-            "Python",
-            "Pandas"
+            "LLMs",
+            "Prompt Engineering"
         ],
         "prerequisites": [
             "Python"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "GenAI Engineer",
+            "ML Engineer",
+            "Data Scientist"
+        ]
+    },
+    {
+        "course_id": "C017",
+        "course_name": "CI/CD Fundamentals",
+        "skills_taught": [
+            "CI/CD"
+        ],
+        "prerequisites": [
+            "Git"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "MLOps Engineer",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C018",
+        "course_name": "MLOps Fundamentals",
+        "skills_taught": [
+            "MLOps",
+            "Model Monitoring"
+        ],
+        "prerequisites": [
+            "Machine Learning",
+            "Docker"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 3,
+        "careers": [
+            "MLOps Engineer",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C019",
+        "course_name": "RAG Fundamentals",
+        "skills_taught": [
+            "RAG",
+            "LangChain"
+        ],
+        "prerequisites": [
+            "LLMs"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 3,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C020",
+        "course_name": "Building Your First AI Agent",
+        "skills_taught": [
+            "AI Agents"
+        ],
+        "prerequisites": [
+            "LLMs"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 3,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C021",
+        "course_name": "LLM Evaluation Basics",
+        "skills_taught": [
+            "LLM Evaluation"
+        ],
+        "prerequisites": [
+            "LLMs"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C101",
+        "course_name": "Python for Data Analysis",
+        "skills_taught": [
+            "Python",
+            "Pandas",
+            "NumPy"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 4,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C102",
+        "course_name": "Advanced SQL",
+        "skills_taught": [
+            "SQL"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist"
+        ]
+    },
+    {
+        "course_id": "C103",
+        "course_name": "Statistics for Data Science",
+        "skills_taught": [
+            "Statistics"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 4,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C104",
+        "course_name": "Data Visualization with Python",
+        "skills_taught": [
+            "Data Visualization"
+        ],
+        "prerequisites": [
+            "Python",
+            "Pandas"
         ],
         "difficulty": "Intermediate",
         "duration_weeks": 3,
@@ -136,210 +403,459 @@
         ]
     },
     {
-        "course_id": "C009",
-        "course_name": "Scikit-learn and Model Development",
+        "course_id": "C105",
+        "course_name": "Power BI Data Modelling and DAX",
         "skills_taught": [
-            "Scikit-learn",
+            "Power BI"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst"
+        ]
+    },
+    {
+        "course_id": "C106",
+        "course_name": "Advanced Excel",
+        "skills_taught": [
+            "Excel"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 2,
+        "careers": [
+            "Data Analyst"
+        ]
+    },
+    {
+        "course_id": "C107",
+        "course_name": "Applied Machine Learning",
+        "skills_taught": [
             "Machine Learning",
-            "Model Evaluation"
+            "Scikit-learn"
         ],
         "prerequisites": [
-            "Python",
-            "Machine Learning"
+            "Pandas"
         ],
-        "difficulty": "Advanced",
-        "duration_weeks": 4,
+        "difficulty": "Intermediate",
+        "duration_weeks": 5,
         "careers": [
             "Data Scientist",
             "ML Engineer"
         ]
     },
     {
-        "course_id": "C010",
-        "course_name": "Git and GitHub",
+        "course_id": "C108",
+        "course_name": "Deep Learning with PyTorch",
         "skills_taught": [
-            "Git",
-            "GitHub",
-            "Version Control"
+            "Deep Learning",
+            "PyTorch"
         ],
         "prerequisites": [],
-        "difficulty": "Beginner",
-        "duration_weeks": 1,
+        "difficulty": "Intermediate",
+        "duration_weeks": 5,
         "careers": [
             "Data Scientist",
-            "ML Engineer",
-            "Cloud Engineer"
+            "ML Engineer"
         ]
     },
     {
-        "course_id": "C011",
-        "course_name": "Docker for Developers",
+        "course_id": "C109",
+        "course_name": "Data Storytelling",
         "skills_taught": [
-            "Docker",
-            "Containerization"
+            "Communication"
         ],
         "prerequisites": [
+            "Data Visualization"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 2,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist"
+        ]
+    },
+    {
+        "course_id": "C110",
+        "course_name": "Git Workflows for Teams",
+        "skills_taught": [
             "Git"
         ],
+        "prerequisites": [],
         "difficulty": "Intermediate",
-        "duration_weeks": 2,
+        "duration_weeks": 1,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist",
+            "ML Engineer",
+            "GenAI Engineer",
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C111",
+        "course_name": "Docker for ML Applications",
+        "skills_taught": [
+            "Docker"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
         "careers": [
             "ML Engineer",
-            "Cloud Engineer"
+            "MLOps Engineer",
+            "GenAI Engineer"
         ]
     },
     {
-        "course_id": "C012",
-        "course_name": "Linux Fundamentals",
+        "course_id": "C112",
+        "course_name": "Production APIs for ML",
         "skills_taught": [
-            "Linux",
-            "Command Line",
-            "System Administration"
+            "REST APIs"
         ],
         "prerequisites": [],
-        "difficulty": "Beginner",
-        "duration_weeks": 2,
-        "careers": [
-            "Cloud Engineer"
-        ]
-    },
-    {
-        "course_id": "C013",
-        "course_name": "Networking Fundamentals",
-        "skills_taught": [
-            "Networking",
-            "TCP/IP",
-            "DNS",
-            "HTTP"
-        ],
-        "prerequisites": [],
-        "difficulty": "Beginner",
-        "duration_weeks": 3,
-        "careers": [
-            "Cloud Engineer"
-        ]
-    },
-    {
-        "course_id": "C014",
-        "course_name": "Bash Scripting",
-        "skills_taught": [
-            "Bash",
-            "Linux",
-            "Automation"
-        ],
-        "prerequisites": [
-            "Linux"
-        ],
-        "difficulty": "Intermediate",
-        "duration_weeks": 2,
-        "careers": [
-            "Cloud Engineer"
-        ]
-    },
-    {
-        "course_id": "C015",
-        "course_name": "Cloud Computing Fundamentals",
-        "skills_taught": [
-            "Cloud Computing",
-            "Cloud Architecture",
-            "Cloud Services"
-        ],
-        "prerequisites": [
-            "Linux",
-            "Networking"
-        ],
         "difficulty": "Intermediate",
         "duration_weeks": 3,
         "careers": [
-            "Cloud Engineer"
+            "ML Engineer",
+            "GenAI Engineer",
+            "MLOps Engineer"
         ]
     },
     {
-        "course_id": "C016",
-        "course_name": "CI/CD and DevOps Fundamentals",
+        "course_id": "C113",
+        "course_name": "Cloud for ML Workloads",
         "skills_taught": [
-            "CI/CD",
-            "DevOps",
-            "Automation"
+            "Cloud Computing"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "ML Engineer",
+            "MLOps Engineer",
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C114",
+        "course_name": "CI/CD for Machine Learning",
+        "skills_taught": [
+            "CI/CD"
         ],
         "prerequisites": [
-            "Git",
             "Docker"
         ],
         "difficulty": "Intermediate",
         "duration_weeks": 3,
         "careers": [
-            "ML Engineer",
-            "Cloud Engineer"
+            "MLOps Engineer",
+            "ML Engineer"
         ]
     },
     {
-        "course_id": "C017",
-        "course_name": "REST API Development with Python",
+        "course_id": "C115",
+        "course_name": "MLOps in Practice",
         "skills_taught": [
-            "REST APIs",
-            "Python",
-            "API Development"
+            "MLOps",
+            "Model Monitoring"
         ],
-        "prerequisites": [
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 4,
+        "careers": [
+            "MLOps Engineer",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C116",
+        "course_name": "Prompt Engineering in Practice",
+        "skills_taught": [
+            "Prompt Engineering",
+            "LLMs"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 2,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C117",
+        "course_name": "Building RAG Applications",
+        "skills_taught": [
+            "RAG",
+            "LangChain"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 4,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C118",
+        "course_name": "Agentic Workflows with LangGraph",
+        "skills_taught": [
+            "AI Agents",
+            "LangChain"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 4,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C119",
+        "course_name": "Evaluating LLM Applications",
+        "skills_taught": [
+            "LLM Evaluation"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C120",
+        "course_name": "Python for Engineers",
+        "skills_taught": [
             "Python"
         ],
+        "prerequisites": [],
         "difficulty": "Intermediate",
         "duration_weeks": 3,
         "careers": [
+            "ML Engineer",
+            "GenAI Engineer",
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C201",
+        "course_name": "Advanced Python",
+        "skills_taught": [
+            "Python"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Scientist",
+            "ML Engineer",
+            "GenAI Engineer",
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C202",
+        "course_name": "SQL Performance and Analytics Engineering",
+        "skills_taught": [
+            "SQL"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst"
+        ]
+    },
+    {
+        "course_id": "C203",
+        "course_name": "Statistical Inference and Experimentation",
+        "skills_taught": [
+            "Statistics"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "Data Scientist",
+            "Data Analyst"
+        ]
+    },
+    {
+        "course_id": "C204",
+        "course_name": "Dashboard Design",
+        "skills_taught": [
+            "Data Visualization"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst"
+        ]
+    },
+    {
+        "course_id": "C205",
+        "course_name": "Enterprise Power BI",
+        "skills_taught": [
+            "Power BI"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst"
+        ]
+    },
+    {
+        "course_id": "C206",
+        "course_name": "Advanced Machine Learning",
+        "skills_taught": [
+            "Machine Learning"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 5,
+        "careers": [
+            "Data Scientist",
             "ML Engineer"
         ]
     },
     {
-        "course_id": "C018",
-        "course_name": "Machine Learning Model Deployment",
+        "course_id": "C207",
+        "course_name": "Advanced Deep Learning",
         "skills_taught": [
-            "Model Deployment",
-            "Docker",
-            "REST APIs"
+            "Deep Learning"
         ],
-        "prerequisites": [
-            "Machine Learning",
-            "Docker",
-            "REST APIs"
-        ],
+        "prerequisites": [],
         "difficulty": "Advanced",
-        "duration_weeks": 4,
+        "duration_weeks": 5,
         "careers": [
-            "ML Engineer"
+            "ML Engineer",
+            "Data Scientist"
         ]
     },
     {
-        "course_id": "C019",
-        "course_name": "Cloud Security Fundamentals",
+        "course_id": "C208",
+        "course_name": "Stakeholder Communication",
         "skills_taught": [
-            "Cloud Security",
-            "Identity",
-            "Access Management"
+            "Communication"
         ],
-        "prerequisites": [
-            "Cloud Computing"
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 2,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist",
+            "ML Engineer",
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C209",
+        "course_name": "Production Containers",
+        "skills_taught": [
+            "Docker"
         ],
-        "difficulty": "Intermediate",
+        "prerequisites": [],
+        "difficulty": "Advanced",
         "duration_weeks": 3,
         "careers": [
-            "Cloud Engineer"
+            "MLOps Engineer"
         ]
     },
     {
-        "course_id": "C020",
-        "course_name": "Infrastructure as Code",
+        "course_id": "C210",
+        "course_name": "Cloud Architecture for ML",
         "skills_taught": [
-            "Infrastructure as Code",
-            "Cloud Automation"
-        ],
-        "prerequisites": [
             "Cloud Computing"
         ],
+        "prerequisites": [],
         "difficulty": "Advanced",
         "duration_weeks": 4,
         "careers": [
-            "Cloud Engineer"
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C211",
+        "course_name": "MLOps at Scale",
+        "skills_taught": [
+            "MLOps"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "MLOps Engineer",
+            "ML Engineer",
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C212",
+        "course_name": "Production ML Monitoring",
+        "skills_taught": [
+            "Model Monitoring"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 3,
+        "careers": [
+            "MLOps Engineer"
+        ]
+    },
+    {
+        "course_id": "C213",
+        "course_name": "LLM Systems Design",
+        "skills_taught": [
+            "LLMs"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C214",
+        "course_name": "Advanced RAG",
+        "skills_taught": [
+            "RAG"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C215",
+        "course_name": "Multi-Agent Systems",
+        "skills_taught": [
+            "AI Agents"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "GenAI Engineer"
+        ]
+    },
+    {
+        "course_id": "C216",
+        "course_name": "LLM Evaluation and Reliability",
+        "skills_taught": [
+            "LLM Evaluation"
+        ],
+        "prerequisites": [],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "GenAI Engineer"
         ]
     }
 ]

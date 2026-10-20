@@ -1,0 +1,697 @@
+[
+    {
+        "family": "Data Analyst",
+        "seniority": "fresher",
+        "requirements": [
+            {
+                "skill": "SQL",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Excel",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Statistics",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Data Visualization",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Power BI",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Python",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "Pandas",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "Communication",
+                "level": 2,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "Data Analyst",
+        "seniority": "mid",
+        "requirements": [
+            {
+                "skill": "SQL",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Excel",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Statistics",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Data Visualization",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Power BI",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Python",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Communication",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Pandas",
+                "level": 2,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "Data Analyst",
+        "seniority": "senior",
+        "requirements": [
+            {
+                "skill": "SQL",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Statistics",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Data Visualization",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Power BI",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Python",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Communication",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Pandas",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "Excel",
+                "level": 2,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "Data Scientist",
+        "seniority": "fresher",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Statistics",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "SQL",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Pandas",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Scikit-learn",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "NumPy",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "Data Visualization",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "Git",
+                "level": 1,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "Data Scientist",
+        "seniority": "mid",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Statistics",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "SQL",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Pandas",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Scikit-learn",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "Git",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "Communication",
+                "level": 2,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "Data Scientist",
+        "seniority": "senior",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Statistics",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "SQL",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Scikit-learn",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "MLOps",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "Communication",
+                "level": 3,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "ML Engineer",
+        "seniority": "fresher",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Scikit-learn",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Git",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "SQL",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "PyTorch",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "Docker",
+                "level": 1,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "ML Engineer",
+        "seniority": "mid",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "PyTorch",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Docker",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Git",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "REST APIs",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "MLOps",
+                "level": 1,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "ML Engineer",
+        "seniority": "senior",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "PyTorch",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Docker",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "MLOps",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "Model Monitoring",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "Communication",
+                "level": 2,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "GenAI Engineer",
+        "seniority": "fresher",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "LLMs",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Prompt Engineering",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "RAG",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Git",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "LangChain",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "REST APIs",
+                "level": 1,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "GenAI Engineer",
+        "seniority": "mid",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "LLMs",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "RAG",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "LangChain",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "AI Agents",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "REST APIs",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "LLM Evaluation",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "Docker",
+                "level": 1,
+                "priority": "important"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 1,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "GenAI Engineer",
+        "seniority": "senior",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "LLMs",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "RAG",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "AI Agents",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "LLM Evaluation",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Docker",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "MLOps",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 2,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "MLOps Engineer",
+        "seniority": "fresher",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Git",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Linux",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Docker",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "CI/CD",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 1,
+                "priority": "required"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 1,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "MLOps Engineer",
+        "seniority": "mid",
+        "requirements": [
+            {
+                "skill": "Python",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Docker",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "CI/CD",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "MLOps",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "Model Monitoring",
+                "level": 2,
+                "priority": "important"
+            },
+            {
+                "skill": "REST APIs",
+                "level": 2,
+                "priority": "important"
+            }
+        ]
+    },
+    {
+        "family": "MLOps Engineer",
+        "seniority": "senior",
+        "requirements": [
+            {
+                "skill": "Docker",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "CI/CD",
+                "level": 2,
+                "priority": "required"
+            },
+            {
+                "skill": "MLOps",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Model Monitoring",
+                "level": 3,
+                "priority": "required"
+            },
+            {
+                "skill": "Python",
+                "level": 3,
+                "priority": "important"
+            },
+            {
+                "skill": "Communication",
+                "level": 2,
+                "priority": "important"
+            }
+        ]
+    }
+]
