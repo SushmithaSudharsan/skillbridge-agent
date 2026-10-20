@@ -1,0 +1,161 @@
+[
+    {
+        "project_id": "P001",
+        "project_name": "Sales Performance Dashboard",
+        "description": "Analyze sales data and create an interactive business dashboard.",
+        "skills": [
+            "Excel",
+            "SQL",
+            "Power BI",
+            "Data Visualization"
+        ],
+        "difficulty": "Beginner",
+        "careers": [
+            "Data Analyst"
+        ]
+    },
+    {
+        "project_id": "P002",
+        "project_name": "Customer Churn Analysis",
+        "description": "Analyze customer data to identify factors associated with customer churn.",
+        "skills": [
+            "Python",
+            "Pandas",
+            "SQL",
+            "Statistics",
+            "Data Visualization"
+        ],
+        "difficulty": "Intermediate",
+        "careers": [
+            "Data Analyst",
+            "Data Scientist"
+        ]
+    },
+    {
+        "project_id": "P003",
+        "project_name": "Customer Churn Prediction",
+        "description": "Build a machine learning model to predict whether a customer will leave a service.",
+        "skills": [
+            "Python",
+            "Pandas",
+            "Statistics",
+            "Machine Learning",
+            "Scikit-learn"
+        ],
+        "difficulty": "Intermediate",
+        "careers": [
+            "Data Scientist",
+            "ML Engineer"
+        ]
+    },
+    {
+        "project_id": "P004",
+        "project_name": "House Price Prediction",
+        "description": "Build a machine learning model that predicts house prices from property features.",
+        "skills": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Statistics",
+            "Machine Learning",
+            "Scikit-learn"
+        ],
+        "difficulty": "Intermediate",
+        "careers": [
+            "Data Scientist"
+        ]
+    },
+    {
+        "project_id": "P005",
+        "project_name": "Sales Forecasting System",
+        "description": "Analyze historical sales and build a model to forecast future sales.",
+        "skills": [
+            "Python",
+            "Pandas",
+            "Statistics",
+            "Machine Learning",
+            "Data Visualization"
+        ],
+        "difficulty": "Advanced",
+        "careers": [
+            "Data Scientist"
+        ]
+    },
+    {
+        "project_id": "P006",
+        "project_name": "ML Model REST API",
+        "description": "Create an API that accepts input data and returns predictions from a machine learning model.",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "REST APIs",
+            "Model Deployment"
+        ],
+        "difficulty": "Advanced",
+        "careers": [
+            "ML Engineer"
+        ]
+    },
+    {
+        "project_id": "P007",
+        "project_name": "Containerized ML Application",
+        "description": "Package a machine learning application using Docker and prepare it for deployment.",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Docker",
+            "REST APIs",
+            "Model Deployment"
+        ],
+        "difficulty": "Advanced",
+        "careers": [
+            "ML Engineer",
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "project_id": "P008",
+        "project_name": "Linux Server Monitoring Tool",
+        "description": "Create a tool that monitors CPU, memory, disk usage, and running processes on a Linux system.",
+        "skills": [
+            "Linux",
+            "Bash",
+            "Python",
+            "System Administration"
+        ],
+        "difficulty": "Intermediate",
+        "careers": [
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "project_id": "P009",
+        "project_name": "Cloud Deployment Pipeline",
+        "description": "Create a simple CI/CD pipeline that builds and deploys an application.",
+        "skills": [
+            "Git",
+            "Docker",
+            "CI/CD",
+            "Cloud Computing"
+        ],
+        "difficulty": "Advanced",
+        "careers": [
+            "Cloud Engineer",
+            "ML Engineer"
+        ]
+    },
+    {
+        "project_id": "P010",
+        "project_name": "Cloud Infrastructure Project",
+        "description": "Design and deploy a basic cloud application infrastructure using infrastructure-as-code principles.",
+        "skills": [
+            "Cloud Computing",
+            "Infrastructure as Code",
+            "Cloud Security"
+        ],
+        "difficulty": "Advanced",
+        "careers": [
+            "Cloud Engineer"
+        ]
+    }
+]

@@ -1,0 +1,203 @@
+[
+    {
+        "id": "resume_01",
+        "name": "Ananya Sharma",
+        "education": "B.Tech in Computer Science",
+        "experience": "6-month internship as a Software Developer",
+        "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Basic Excel"
+        ],
+        "projects": [
+            "Student Management System using Python and SQL"
+        ],
+        "certifications": [],
+        "career_goal": "Data Analyst"
+    },
+    {
+        "id": "resume_02",
+        "name": "Rahul Mehta",
+        "education": "B.Sc in Statistics",
+        "experience": "1 year as Junior Data Analyst",
+        "skills": [
+            "Excel",
+            "SQL",
+            "Python",
+            "Pandas",
+            "Basic Statistics",
+            "Power BI"
+        ],
+        "projects": [
+            "Sales Dashboard using Power BI",
+            "Customer Data Analysis using Python"
+        ],
+        "certifications": [
+            "Microsoft Excel Certification"
+        ],
+        "career_goal": "Data Analyst"
+    },
+    {
+        "id": "resume_03",
+        "name": "Priya Nair",
+        "education": "B.Tech in Information Technology",
+        "experience": "1 year as Python Developer",
+        "skills": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "SQL",
+            "Machine Learning Basics"
+        ],
+        "projects": [
+            "House Price Prediction using Python",
+            "Sales Data Analysis"
+        ],
+        "certifications": [],
+        "career_goal": "Data Scientist"
+    },
+    {
+        "id": "resume_04",
+        "name": "Arjun Kumar",
+        "education": "M.Sc in Computer Science",
+        "experience": "2 years as Data Analyst",
+        "skills": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "SQL",
+            "Statistics",
+            "Machine Learning",
+            "Scikit-learn",
+            "Power BI"
+        ],
+        "projects": [
+            "Customer Churn Prediction",
+            "Sales Forecasting Model",
+            "Business Intelligence Dashboard"
+        ],
+        "certifications": [
+            "Machine Learning Certification"
+        ],
+        "career_goal": "Data Scientist"
+    },
+    {
+        "id": "resume_05",
+        "name": "Vikram Singh",
+        "education": "B.Tech in Computer Science",
+        "experience": "2 years as Java Developer",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "SQL",
+            "Git",
+            "REST APIs"
+        ],
+        "projects": [
+            "E-commerce Backend using Spring Boot",
+            "REST API for Inventory Management"
+        ],
+        "certifications": [],
+        "career_goal": "ML Engineer"
+    },
+    {
+        "id": "resume_06",
+        "name": "Sneha Iyer",
+        "education": "B.Tech in Artificial Intelligence",
+        "experience": "1 year as Junior ML Engineer",
+        "skills": [
+            "Python",
+            "NumPy",
+            "Pandas",
+            "Scikit-learn",
+            "Machine Learning",
+            "SQL",
+            "Git",
+            "Docker"
+        ],
+        "projects": [
+            "Image Classification Model",
+            "Customer Churn Prediction API"
+        ],
+        "certifications": [
+            "Machine Learning Certification"
+        ],
+        "career_goal": "ML Engineer"
+    },
+    {
+        "id": "resume_07",
+        "name": "Karthik Rao",
+        "education": "B.Tech in Computer Science",
+        "experience": "2 years as System Administrator",
+        "skills": [
+            "Linux",
+            "Networking",
+            "Bash",
+            "Git",
+            "Windows Server"
+        ],
+        "projects": [
+            "Linux Server Monitoring System"
+        ],
+        "certifications": [
+            "CompTIA Network+"
+        ],
+        "career_goal": "Cloud Engineer"
+    },
+    {
+        "id": "resume_08",
+        "name": "Meera Joshi",
+        "education": "B.Tech in Information Technology",
+        "experience": "1 year as Software Developer",
+        "skills": [
+            "Python",
+            "Java",
+            "SQL",
+            "Git",
+            "REST APIs"
+        ],
+        "projects": [
+            "Employee Management API",
+            "Web Application using Python"
+        ],
+        "certifications": [],
+        "career_goal": "Cloud Engineer"
+    },
+    {
+        "id": "resume_09",
+        "name": "Rohan Patel",
+        "education": "BBA in Business Administration",
+        "experience": "6 months as Business Operations Intern",
+        "skills": [
+            "Basic Excel",
+            "Communication",
+            "Data Entry"
+        ],
+        "projects": [
+            "Monthly Sales Report using Excel"
+        ],
+        "certifications": [],
+        "career_goal": "Data Analyst"
+    },
+    {
+        "id": "resume_10",
+        "name": "Divya Krishnan",
+        "education": "B.Tech in Computer Science",
+        "experience": "1 year as Software Engineer",
+        "skills": [
+            "Python",
+            "SQL",
+            "Java",
+            "Git",
+            "Basic Statistics",
+            "Docker"
+        ],
+        "projects": [
+            "E-commerce Application",
+            "Customer Database Management System"
+        ],
+        "certifications": [],
+        "career_goal": "Data Scientist"
+    }
+]

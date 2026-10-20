@@ -1,0 +1,345 @@
+[
+    {
+        "course_id": "C001",
+        "course_name": "Excel for Data Analysis",
+        "skills_taught": [
+            "Excel",
+            "Data Cleaning",
+            "Data Analysis"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "Data Analyst"
+        ]
+    },
+    {
+        "course_id": "C002",
+        "course_name": "SQL Fundamentals",
+        "skills_taught": [
+            "SQL"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C003",
+        "course_name": "Advanced SQL",
+        "skills_taught": [
+            "SQL",
+            "Advanced SQL"
+        ],
+        "prerequisites": [
+            "SQL"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist"
+        ]
+    },
+    {
+        "course_id": "C004",
+        "course_name": "Statistics for Data Science",
+        "skills_taught": [
+            "Statistics",
+            "Probability",
+            "Data Analysis"
+        ],
+        "prerequisites": [],
+        "difficulty": "Intermediate",
+        "duration_weeks": 4,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist"
+        ]
+    },
+    {
+        "course_id": "C005",
+        "course_name": "Python for Data Analysis",
+        "skills_taught": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Data Analysis"
+        ],
+        "prerequisites": [
+            "Python"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 4,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist"
+        ]
+    },
+    {
+        "course_id": "C006",
+        "course_name": "Power BI Fundamentals",
+        "skills_taught": [
+            "Power BI",
+            "Data Visualization",
+            "Dashboard Development"
+        ],
+        "prerequisites": [
+            "Excel"
+        ],
+        "difficulty": "Beginner",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst"
+        ]
+    },
+    {
+        "course_id": "C007",
+        "course_name": "Machine Learning Fundamentals",
+        "skills_taught": [
+            "Machine Learning",
+            "Scikit-learn",
+            "Model Evaluation"
+        ],
+        "prerequisites": [
+            "Python",
+            "Statistics"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 5,
+        "careers": [
+            "Data Scientist",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C008",
+        "course_name": "Data Visualization with Python",
+        "skills_taught": [
+            "Data Visualization",
+            "Python",
+            "Pandas"
+        ],
+        "prerequisites": [
+            "Python"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "Data Analyst",
+            "Data Scientist"
+        ]
+    },
+    {
+        "course_id": "C009",
+        "course_name": "Scikit-learn and Model Development",
+        "skills_taught": [
+            "Scikit-learn",
+            "Machine Learning",
+            "Model Evaluation"
+        ],
+        "prerequisites": [
+            "Python",
+            "Machine Learning"
+        ],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "Data Scientist",
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C010",
+        "course_name": "Git and GitHub",
+        "skills_taught": [
+            "Git",
+            "GitHub",
+            "Version Control"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 1,
+        "careers": [
+            "Data Scientist",
+            "ML Engineer",
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "course_id": "C011",
+        "course_name": "Docker for Developers",
+        "skills_taught": [
+            "Docker",
+            "Containerization"
+        ],
+        "prerequisites": [
+            "Git"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 2,
+        "careers": [
+            "ML Engineer",
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "course_id": "C012",
+        "course_name": "Linux Fundamentals",
+        "skills_taught": [
+            "Linux",
+            "Command Line",
+            "System Administration"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 2,
+        "careers": [
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "course_id": "C013",
+        "course_name": "Networking Fundamentals",
+        "skills_taught": [
+            "Networking",
+            "TCP/IP",
+            "DNS",
+            "HTTP"
+        ],
+        "prerequisites": [],
+        "difficulty": "Beginner",
+        "duration_weeks": 3,
+        "careers": [
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "course_id": "C014",
+        "course_name": "Bash Scripting",
+        "skills_taught": [
+            "Bash",
+            "Linux",
+            "Automation"
+        ],
+        "prerequisites": [
+            "Linux"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 2,
+        "careers": [
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "course_id": "C015",
+        "course_name": "Cloud Computing Fundamentals",
+        "skills_taught": [
+            "Cloud Computing",
+            "Cloud Architecture",
+            "Cloud Services"
+        ],
+        "prerequisites": [
+            "Linux",
+            "Networking"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "course_id": "C016",
+        "course_name": "CI/CD and DevOps Fundamentals",
+        "skills_taught": [
+            "CI/CD",
+            "DevOps",
+            "Automation"
+        ],
+        "prerequisites": [
+            "Git",
+            "Docker"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "ML Engineer",
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "course_id": "C017",
+        "course_name": "REST API Development with Python",
+        "skills_taught": [
+            "REST APIs",
+            "Python",
+            "API Development"
+        ],
+        "prerequisites": [
+            "Python"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C018",
+        "course_name": "Machine Learning Model Deployment",
+        "skills_taught": [
+            "Model Deployment",
+            "Docker",
+            "REST APIs"
+        ],
+        "prerequisites": [
+            "Machine Learning",
+            "Docker",
+            "REST APIs"
+        ],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "ML Engineer"
+        ]
+    },
+    {
+        "course_id": "C019",
+        "course_name": "Cloud Security Fundamentals",
+        "skills_taught": [
+            "Cloud Security",
+            "Identity",
+            "Access Management"
+        ],
+        "prerequisites": [
+            "Cloud Computing"
+        ],
+        "difficulty": "Intermediate",
+        "duration_weeks": 3,
+        "careers": [
+            "Cloud Engineer"
+        ]
+    },
+    {
+        "course_id": "C020",
+        "course_name": "Infrastructure as Code",
+        "skills_taught": [
+            "Infrastructure as Code",
+            "Cloud Automation"
+        ],
+        "prerequisites": [
+            "Cloud Computing"
+        ],
+        "difficulty": "Advanced",
+        "duration_weeks": 4,
+        "careers": [
+            "Cloud Engineer"
+        ]
+    }
+]

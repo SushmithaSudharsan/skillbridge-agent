@@ -1,0 +1,65 @@
+{
+    "Data Analyst": {
+        "required_skills": [
+            "SQL",
+            "Excel",
+            "Statistics",
+            "Power BI",
+            "Python",
+            "Pandas"
+        ],
+        "important_skills": [
+            "Data Visualization",
+            "Data Cleaning",
+            "Communication"
+        ]
+    },
+    "Data Scientist": {
+        "required_skills": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Statistics",
+            "Machine Learning",
+            "Scikit-learn",
+            "SQL"
+        ],
+        "important_skills": [
+            "Data Visualization",
+            "Feature Engineering",
+            "Model Evaluation"
+        ]
+    },
+    "ML Engineer": {
+        "required_skills": [
+            "Python",
+            "Machine Learning",
+            "Scikit-learn",
+            "SQL",
+            "Git",
+            "Docker"
+        ],
+        "important_skills": [
+            "REST APIs",
+            "Cloud Computing",
+            "Model Deployment",
+            "Linux"
+        ]
+    },
+    "Cloud Engineer": {
+        "required_skills": [
+            "Linux",
+            "Networking",
+            "Git",
+            "Cloud Computing",
+            "Docker",
+            "Bash"
+        ],
+        "important_skills": [
+            "Python",
+            "CI/CD",
+            "Cloud Security",
+            "Infrastructure as Code"
+        ]
+    }
+}
