@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Data Analyst",
+        "titles": [
+            "Data Analyst",
+            "BI Analyst",
+            "Business Intelligence Analyst",
+            "Product Analyst",
+            "Analytics Analyst",
+            "Business Analyst (Data)"
+        ]
+    },
+    {
+        "name": "Data Scientist",
+        "titles": [
+            "Data Scientist",
+            "Applied Scientist",
+            "Decision Scientist",
+            "Machine Learning Scientist"
+        ]
+    },
+    {
+        "name": "ML Engineer",
+        "titles": [
+            "ML Engineer",
+            "Machine Learning Engineer",
+            "AI/ML Engineer",
+            "Applied ML Engineer",
+            "Computer Vision Engineer",
+            "NLP Engineer",
+            "Deep Learning Engineer"
+        ]
+    },
+    {
+        "name": "GenAI Engineer",
+        "titles": [
+            "GenAI Engineer",
+            "AI Engineer",
+            "Generative AI Engineer",
+            "LLM Engineer",
+            "Agentic AI Engineer",
+            "Prompt Engineer"
+        ]
+    },
+    {
+        "name": "MLOps Engineer",
+        "titles": [
+            "MLOps Engineer",
+            "ML Platform Engineer",
+            "ML Infrastructure Engineer",
+            "LLMOps Engineer"
+        ]
+    }
+]

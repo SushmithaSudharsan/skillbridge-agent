@@ -1,0 +1,5 @@
+{
+    "fresher": ["junior", "jr", "associate", "graduate", "trainee", "entry-level", "intern", "i"],
+    "mid": ["mid-level", "mid", "ii"],
+    "senior": ["senior", "sr", "lead", "staff", "principal", "iii"]
+}
