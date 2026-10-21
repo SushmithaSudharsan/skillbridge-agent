@@ -1,0 +1,681 @@
+[
+    {
+        "id": "sushmitha_ml_fresher",
+        "description": "You, targeting a fresher ML Engineer role (levels are a first guess: edit them to your honest levels)",
+        "target_title": "Junior Machine Learning Engineer",
+        "jd_text": "",
+        "skills": [
+            {
+                "skill": "Python",
+                "level": 2,
+                "source": "project",
+                "evidence": "Built end-to-end ML pipelines with automated CI/CD, retraining, and drift monitoring"
+            },
+            {
+                "skill": "SQL",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Programming & Data: Python, SQL, R, C++"
+            },
+            {
+                "skill": "Pandas",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Pandas, NumPy, Apache Airflow, ETL Pipelines"
+            },
+            {
+                "skill": "NumPy",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Pandas, NumPy, Apache Airflow, ETL Pipelines"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 2,
+                "source": "project",
+                "evidence": "Trained a Random Forest, XGBoost, and neural network ensemble on 94,000+ ICU admissions"
+            },
+            {
+                "skill": "Scikit-learn",
+                "level": 1,
+                "source": "listed",
+                "evidence": "PyTorch, TensorFlow, Keras, Scikit-learn, XGBoost, LightGBM"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 2,
+                "source": "project",
+                "evidence": "Developed an RNN/LSTM model to track classroom engagement"
+            },
+            {
+                "skill": "PyTorch",
+                "level": 2,
+                "source": "project",
+                "evidence": "automating PyTorch and XGBoost pipelines in Airflow"
+            },
+            {
+                "skill": "Git",
+                "level": 1,
+                "source": "listed",
+                "evidence": "github.com/SushmithaSudharsan"
+            },
+            {
+                "skill": "Docker",
+                "level": 1,
+                "source": "listed",
+                "evidence": "MLflow, Docker, CI/CD, FastAPI"
+            },
+            {
+                "skill": "CI/CD",
+                "level": 1,
+                "source": "project",
+                "evidence": "Owned CI/CD for automated retraining, GCP deployment, and PyTest testing"
+            },
+            {
+                "skill": "MLOps",
+                "level": 2,
+                "source": "project",
+                "evidence": "Owned CI/CD for automated retraining, GCP deployment, and PyTest testing"
+            },
+            {
+                "skill": "Model Monitoring",
+                "level": 1,
+                "source": "project",
+                "evidence": "monitored drift with Prometheus/Grafana at under 200ms p99"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 1,
+                "source": "project",
+                "evidence": "GCP deployment"
+            },
+            {
+                "skill": "REST APIs",
+                "level": 1,
+                "source": "listed",
+                "evidence": "MLflow, Docker, CI/CD, FastAPI"
+            },
+            {
+                "skill": "LLMs",
+                "level": 1,
+                "source": "project",
+                "evidence": "designing a ReAct agent that connects GPT-4o, embeddings, FAISS, and 5 tools"
+            },
+            {
+                "skill": "RAG",
+                "level": 1,
+                "source": "listed",
+                "evidence": "LLMs, RAG, LangChain, Multi-Agent Systems"
+            },
+            {
+                "skill": "LangChain",
+                "level": 1,
+                "source": "project",
+                "evidence": "GenAI Sports Analysis Chatbot | LangChain, FAISS, GPT-4o, Gradio"
+            },
+            {
+                "skill": "AI Agents",
+                "level": 1,
+                "source": "project",
+                "evidence": "designing a ReAct agent that connects GPT-4o, embeddings, FAISS, and 5 tools"
+            },
+            {
+                "skill": "Prompt Engineering",
+                "level": 1,
+                "source": "listed",
+                "evidence": "LLMs, RAG, LangChain, Multi-Agent Systems, NLP, Prompt Engineering"
+            }
+        ],
+        "expected_gaps": []
+    },
+    {
+        "id": "sushmitha_peoplex",
+        "description": "You, targeting the PeopleX AI Engineer JD (mid by JD hints)",
+        "target_title": "AI Engineer",
+        "jd_text": "We are seeking a versatile AI Engineer with strong Python skills. You'll collaborate closely with leadership and mentor junior team members while shaping the company's technical direction.",
+        "skills": [
+            {
+                "skill": "Python",
+                "level": 2,
+                "source": "project",
+                "evidence": "Built end-to-end ML pipelines with automated CI/CD, retraining, and drift monitoring"
+            },
+            {
+                "skill": "SQL",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Programming & Data: Python, SQL, R, C++"
+            },
+            {
+                "skill": "Pandas",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Pandas, NumPy, Apache Airflow, ETL Pipelines"
+            },
+            {
+                "skill": "NumPy",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Pandas, NumPy, Apache Airflow, ETL Pipelines"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 2,
+                "source": "project",
+                "evidence": "Trained a Random Forest, XGBoost, and neural network ensemble on 94,000+ ICU admissions"
+            },
+            {
+                "skill": "Scikit-learn",
+                "level": 1,
+                "source": "listed",
+                "evidence": "PyTorch, TensorFlow, Keras, Scikit-learn, XGBoost, LightGBM"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 2,
+                "source": "project",
+                "evidence": "Developed an RNN/LSTM model to track classroom engagement"
+            },
+            {
+                "skill": "PyTorch",
+                "level": 2,
+                "source": "project",
+                "evidence": "automating PyTorch and XGBoost pipelines in Airflow"
+            },
+            {
+                "skill": "Git",
+                "level": 1,
+                "source": "listed",
+                "evidence": "github.com/SushmithaSudharsan"
+            },
+            {
+                "skill": "Docker",
+                "level": 1,
+                "source": "listed",
+                "evidence": "MLflow, Docker, CI/CD, FastAPI"
+            },
+            {
+                "skill": "CI/CD",
+                "level": 1,
+                "source": "project",
+                "evidence": "Owned CI/CD for automated retraining, GCP deployment, and PyTest testing"
+            },
+            {
+                "skill": "MLOps",
+                "level": 2,
+                "source": "project",
+                "evidence": "Owned CI/CD for automated retraining, GCP deployment, and PyTest testing"
+            },
+            {
+                "skill": "Model Monitoring",
+                "level": 1,
+                "source": "project",
+                "evidence": "monitored drift with Prometheus/Grafana at under 200ms p99"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 1,
+                "source": "project",
+                "evidence": "GCP deployment"
+            },
+            {
+                "skill": "REST APIs",
+                "level": 1,
+                "source": "listed",
+                "evidence": "MLflow, Docker, CI/CD, FastAPI"
+            },
+            {
+                "skill": "LLMs",
+                "level": 1,
+                "source": "project",
+                "evidence": "designing a ReAct agent that connects GPT-4o, embeddings, FAISS, and 5 tools"
+            },
+            {
+                "skill": "RAG",
+                "level": 1,
+                "source": "listed",
+                "evidence": "LLMs, RAG, LangChain, Multi-Agent Systems"
+            },
+            {
+                "skill": "LangChain",
+                "level": 1,
+                "source": "project",
+                "evidence": "GenAI Sports Analysis Chatbot | LangChain, FAISS, GPT-4o, Gradio"
+            },
+            {
+                "skill": "AI Agents",
+                "level": 1,
+                "source": "project",
+                "evidence": "designing a ReAct agent that connects GPT-4o, embeddings, FAISS, and 5 tools"
+            },
+            {
+                "skill": "Prompt Engineering",
+                "level": 1,
+                "source": "listed",
+                "evidence": "LLMs, RAG, LangChain, Multi-Agent Systems, NLP, Prompt Engineering"
+            }
+        ],
+        "expected_gaps": [
+            {
+                "skill": "Python",
+                "current": 2,
+                "required": 3
+            },
+            {
+                "skill": "AI Agents",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "LLMs",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "LangChain",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "RAG",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "REST APIs",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "LLM Evaluation",
+                "current": 0,
+                "required": 2
+            }
+        ]
+    },
+    {
+        "id": "aiml_fresher",
+        "description": "Studied AI/ML; only course projects",
+        "target_title": "Junior Data Scientist",
+        "jd_text": "",
+        "skills": [
+            {
+                "skill": "Python",
+                "level": 1,
+                "source": "course",
+                "evidence": "B.Tech coursework: Python programming"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 1,
+                "source": "course",
+                "evidence": "Coursework: Machine Learning"
+            },
+            {
+                "skill": "Scikit-learn",
+                "level": 1,
+                "source": "course",
+                "evidence": "Course project using scikit-learn"
+            },
+            {
+                "skill": "Statistics",
+                "level": 1,
+                "source": "course",
+                "evidence": "Coursework: Probability and Statistics"
+            },
+            {
+                "skill": "Pandas",
+                "level": 1,
+                "source": "course",
+                "evidence": "Course project using Pandas"
+            },
+            {
+                "skill": "SQL",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: SQL"
+            }
+        ],
+        "expected_gaps": [
+            {
+                "skill": "Pandas",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "Python",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "SQL",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "Statistics",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "Data Visualization",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "Git",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "NumPy",
+                "current": 0,
+                "required": 1
+            }
+        ]
+    },
+    {
+        "id": "java_switcher",
+        "description": "Java developer with 3 years' experience, switching to ML",
+        "target_title": "Associate ML Engineer",
+        "jd_text": "",
+        "skills": [
+            {
+                "skill": "Git",
+                "level": 2,
+                "source": "job",
+                "evidence": "Managed releases with Git at Infosys"
+            },
+            {
+                "skill": "SQL",
+                "level": 2,
+                "source": "job",
+                "evidence": "Wrote SQL queries for order services"
+            },
+            {
+                "skill": "REST APIs",
+                "level": 2,
+                "source": "job",
+                "evidence": "Built REST APIs in Spring Boot"
+            },
+            {
+                "skill": "Docker",
+                "level": 1,
+                "source": "job",
+                "evidence": "Containerised services with Docker"
+            },
+            {
+                "skill": "Python",
+                "level": 1,
+                "source": "self_study",
+                "evidence": "Self-taught Python through online tutorials"
+            }
+        ],
+        "expected_gaps": [
+            {
+                "skill": "Machine Learning",
+                "current": 0,
+                "required": 2
+            },
+            {
+                "skill": "Python",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "Scikit-learn",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "Deep Learning",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "PyTorch",
+                "current": 0,
+                "required": 1
+            }
+        ]
+    },
+    {
+        "id": "senior_ds_no_deploy",
+        "description": "Senior data scientist, deep in ML, never deployed",
+        "target_title": "Senior Machine Learning Engineer",
+        "jd_text": "",
+        "skills": [
+            {
+                "skill": "Python",
+                "level": 3,
+                "source": "job",
+                "evidence": "6 years of Python for modelling"
+            },
+            {
+                "skill": "Statistics",
+                "level": 3,
+                "source": "job",
+                "evidence": "Led experimentation and causal analysis"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 3,
+                "source": "job",
+                "evidence": "Built pricing and churn models used across the business"
+            },
+            {
+                "skill": "Scikit-learn",
+                "level": 2,
+                "source": "job",
+                "evidence": "scikit-learn pipelines"
+            },
+            {
+                "skill": "SQL",
+                "level": 2,
+                "source": "job",
+                "evidence": "Daily SQL on the data warehouse"
+            },
+            {
+                "skill": "Pandas",
+                "level": 2,
+                "source": "job",
+                "evidence": "Pandas for feature engineering"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 2,
+                "source": "project",
+                "evidence": "Trained LSTM demand models"
+            },
+            {
+                "skill": "Communication",
+                "level": 2,
+                "source": "job",
+                "evidence": "Presented model results to leadership"
+            }
+        ],
+        "expected_gaps": [
+            {
+                "skill": "Docker",
+                "current": 0,
+                "required": 2
+            },
+            {
+                "skill": "MLOps",
+                "current": 0,
+                "required": 2
+            },
+            {
+                "skill": "PyTorch",
+                "current": 0,
+                "required": 2
+            },
+            {
+                "skill": "Deep Learning",
+                "current": 2,
+                "required": 3
+            },
+            {
+                "skill": "Cloud Computing",
+                "current": 0,
+                "required": 2
+            },
+            {
+                "skill": "Model Monitoring",
+                "current": 0,
+                "required": 2
+            }
+        ]
+    },
+    {
+        "id": "keyword_stuffed",
+        "description": "Lists many skills with no proof",
+        "target_title": "Junior AI Engineer",
+        "jd_text": "",
+        "skills": [
+            {
+                "skill": "Python",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            },
+            {
+                "skill": "SQL",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            },
+            {
+                "skill": "Machine Learning",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            },
+            {
+                "skill": "Deep Learning",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            },
+            {
+                "skill": "LLMs",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            },
+            {
+                "skill": "RAG",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            },
+            {
+                "skill": "Docker",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            },
+            {
+                "skill": "Cloud Computing",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            },
+            {
+                "skill": "MLOps",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Python, SQL, Machine Learning, Deep Learning, LLMs, RAG, Docker, Cloud, MLOps"
+            }
+        ],
+        "expected_gaps": [
+            {
+                "skill": "Prompt Engineering",
+                "current": 0,
+                "required": 2
+            },
+            {
+                "skill": "Git",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "Python",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "LangChain",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "REST APIs",
+                "current": 0,
+                "required": 1
+            }
+        ]
+    },
+    {
+        "id": "no_python_analyst",
+        "description": "Operations intern with basic Excel, no Python (the old notebook crashed here)",
+        "target_title": "Junior Data Analyst",
+        "jd_text": "",
+        "skills": [
+            {
+                "skill": "Excel",
+                "level": 1,
+                "source": "listed",
+                "evidence": "Skills: Basic Excel, Data Entry"
+            },
+            {
+                "skill": "Communication",
+                "level": 1,
+                "source": "job",
+                "evidence": "Coordinated with vendors as an operations intern"
+            }
+        ],
+        "expected_gaps": [
+            {
+                "skill": "Data Visualization",
+                "current": 0,
+                "required": 2
+            },
+            {
+                "skill": "SQL",
+                "current": 0,
+                "required": 2
+            },
+            {
+                "skill": "Excel",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "Power BI",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "Statistics",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "Communication",
+                "current": 1,
+                "required": 2
+            },
+            {
+                "skill": "Pandas",
+                "current": 0,
+                "required": 1
+            },
+            {
+                "skill": "Python",
+                "current": 0,
+                "required": 1
+            }
+        ]
+    }
+]
