@@ -174,3 +174,35 @@ class SkillGap(BaseModel):
     @property
     def size(self) -> int:
         return self.required - self.current
+
+
+
+# ---------- Plan ----------
+
+class PlannedCourse(BaseModel):
+    """One course in a learning path, and why it is there."""
+
+    model_config = ConfigDict(frozen=True)
+
+    course_id: str
+    course_name: str
+    duration_weeks: int
+    reason: str
+
+
+class PlanResult(BaseModel):
+    """An ordered learning path, plus anything it could not cover."""
+
+    model_config = ConfigDict(frozen=True)
+
+    courses: list[PlannedCourse]
+    uncovered: list[SkillGap]
+    warnings: list[str]
+
+    @property
+    def course_ids(self) -> list[str]:
+        return [course.course_id for course in self.courses]
+
+    @property
+    def total_weeks(self) -> int:
+        return sum(course.duration_weeks for course in self.courses)

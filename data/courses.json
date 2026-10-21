@@ -65,9 +65,7 @@
         "skills_taught": [
             "Data Visualization"
         ],
-        "prerequisites": [
-            "Excel"
-        ],
+        "prerequisites": [],
         "difficulty": "Beginner",
         "duration_weeks": 2,
         "careers": [
