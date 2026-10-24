@@ -1,0 +1,16 @@
+Priya Raman (fictional example)
+priya.raman@example.com | +91 98765 43210
+
+Target Role: Junior Data Scientist
+
+Education
+B.Tech in Computer Science (AI & ML), 2026
+
+Skills
+Python, SQL, Pandas, Machine Learning, Statistics
+
+Projects
+House Price Prediction: trained a linear regression and random forest model with scikit-learn on 20,000 listings.
+Movie Recommender: built a content-based recommender in Python using Pandas.
+
+Coursework: Probability and Statistics, Machine Learning, Data Structures
