@@ -2,4 +2,11 @@
 __pycache__/
 *.egg-info/
 .pytest_cache/
+.ruff_cache/
+.mypy_cache/
 .env
+private/
+# reports and resumes describe real people: never commit them
+*.pdf
+report*.html
+report*.md

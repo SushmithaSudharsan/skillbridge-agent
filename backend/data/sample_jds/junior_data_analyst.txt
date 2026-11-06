@@ -1,0 +1,24 @@
+# title: Junior Data Analyst
+# role: Data Analyst
+# level: fresher
+Junior Data Analyst - Lumen Retail Group (fictional)
+
+About the role
+You will turn store and online sales data into weekly reports that our merchandising team uses to plan stock.
+
+What you will do
+- Build and maintain dashboards in Power BI
+- Write SQL to pull and join sales, stock and returns data
+- Explain trends and anomalies to non-technical managers
+
+Must have
+- Good SQL (joins, group by, window functions a plus)
+- Advanced Excel (pivot tables, lookups)
+- Experience with Power BI or Tableau
+- Clear communication with business stakeholders
+
+Nice to have
+- Python with Pandas
+- Basic statistics
+
+Experience: 0-1 years; internships count.

@@ -1,0 +1,22 @@
+# title: MLOps Engineer (6 years)
+# role: MLOps Engineer
+# level: senior
+# style: detailed
+# identity: Arjun Reddy | arjun.reddy@example.com | +91 98660 78901 | Indian Institute of Technology Hyderabad | Stratus Payments | Hyderabad
+Arjun Reddy
+arjun.reddy@example.com | +91 98660 78901 | Hyderabad
+
+Experience
+Senior MLOps Engineer, Stratus Payments, 2021 - present
+- Lead a team of 4 running the model platform: Kubernetes, Kubeflow pipelines, and Terraform on GCP
+- Designed CI/CD for 30 models with automated tests, canary releases and rollback
+- Built drift monitoring with Prometheus and Grafana; alerts cut silent model failures to zero in 2024
+
+DevOps Engineer, Stratus Payments, 2019 - 2021
+- Containerised 40 services with Docker and moved them to Kubernetes
+
+Education
+B.Tech Computer Science, Indian Institute of Technology Hyderabad, 2019
+
+Skills
+Kubernetes, Docker, Terraform, GCP, CI/CD, Prometheus, Grafana, Python, MLflow

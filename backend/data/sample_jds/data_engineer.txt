@@ -1,0 +1,22 @@
+# title: Data Engineer
+# role: Data Engineer
+# level: mid
+Data Engineer - Tidewater Mobility (fictional)
+
+Build the pipelines that feed our ride and route analytics.
+
+Responsibilities
+- Build batch pipelines with Apache Spark and Airflow
+- Model data for analytics in our warehouse
+- Keep data quality high with tests and monitoring
+
+Requirements
+- 2+ years of experience in data engineering; academic projects will be considered
+- Strong SQL and data modelling
+- Experience with Apache Spark
+- Experience with Airflow or a similar orchestrator
+- Python
+
+Nice to have
+- Cloud data warehouses
+- Streaming (Kafka)

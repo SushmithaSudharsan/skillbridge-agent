@@ -1,0 +1,24 @@
+# title: Data Scientist (fresher, detailed style)
+# role: Data Scientist
+# level: fresher
+# style: detailed
+# identity: Rohan Kulkarni | rohan.kulkarni@example.com | +91 99870 22334 | Vellore Institute of Technology | Northwind Analytics | Pune
+Rohan Kulkarni
+rohan.kulkarni@example.com | +91 99870 22334 | Pune | github.com/rohank-demo
+
+Education
+B.Tech in Computer Science and Engineering (Specialization in Data Science), Vellore Institute of Technology, 2025, CGPA 8.6
+Relevant coursework: Probability and Statistics, Machine Learning, Data Mining, Database Systems
+
+Experience
+Data Science Intern, Northwind Analytics, Jan 2025 - Jun 2025
+- Built a gradient-boosted churn model in Python with scikit-learn and XGBoost on 120,000 customer records, raising recall on churners from 0.61 to 0.74 against the existing rule-based flag
+- Designed and analysed an A/B test of a new onboarding email, using a two-proportion z-test to show a 2.1 point lift in activation
+- Wrote SQL queries in PostgreSQL to build the training tables and documented every feature
+
+Projects
+- Demand forecasting: forecast weekly demand for 50 products with Prophet and a LightGBM baseline; reported MAPE for each product
+- Credit risk scorecard: logistic regression with Pandas and scikit-learn, with a short write-up explaining the model to non-technical readers
+
+Skills
+Python, SQL, Pandas, NumPy, scikit-learn, XGBoost, Statistics, A/B testing, Git

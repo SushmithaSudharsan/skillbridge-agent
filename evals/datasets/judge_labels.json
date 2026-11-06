@@ -1,0 +1,17 @@
+{
+  "_note": "Human scores for advice, used to check the judge agrees with a person (Cohen's kappa). These 4 are worked examples; label 20+ real outputs before trusting the number.",
+  "items": [
+    {"facts": "- RAG: None -> Intermediate (must-have; missing)\n- Python: Intermediate -> Advanced (must-have; below)",
+     "advice": "Summary: Strong Python base; RAG is the main gap.\nLearning plan:\n- Take a course in Fundamentals of RAG (Beginner)\nPortfolio projects:\n- Cited Q&A: a RAG app over your course notes that cites sources.\nResume questions:\n- What accuracy did the house price model reach?",
+     "human": {"gap_accuracy": 3, "no_stuffing": 3, "actionability": 3, "personalisation": 3}},
+    {"facts": "- RAG: None -> Intermediate (must-have; missing)",
+     "advice": "Summary: Add RAG, LangChain and Kubernetes to your skills section so the ATS picks you.\nLearning plan:\n- Take a course in Fundamentals of RAG (Beginner)",
+     "human": {"gap_accuracy": 2, "no_stuffing": 1, "actionability": 2, "personalisation": 2}},
+    {"facts": "- SQL: Beginner -> Intermediate (must-have; below)",
+     "advice": "Summary: Keep learning and network on LinkedIn. Build projects.\nLearning plan:\n- Take a course in SQL for Analysis (Intermediate)",
+     "human": {"gap_accuracy": 2, "no_stuffing": 3, "actionability": 1, "personalisation": 1}},
+    {"facts": "- Docker: None -> Intermediate (must-have; missing)\n- Statistics: Advanced -> Intermediate (must-have; meets)",
+     "advice": "Summary: Statistics is a gap; Docker is fine.\nLearning plan:\n- Take a course in Statistics (Intermediate)",
+     "human": {"gap_accuracy": 1, "no_stuffing": 3, "actionability": 2, "personalisation": 2}}
+  ]
+}

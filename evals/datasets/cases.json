@@ -1,0 +1,138 @@
+{
+  "_note": "Labelled resume/JD pairs. gold_gaps = requirements the job states that the resume does not show at the needed level. ambiguous = could reasonably go either way; left out of scoring. LABEL STATUS: DRAFT - these labels were written by Claude from the sample texts. Review each one (and add your own real JDs) before quoting any number from the benchmark.",
+  "label_status": "draft",
+  "cases": [
+    {
+      "id": "peoplex_vs_aiml_fresher",
+      "title": "AI Engineer",
+      "resume": "aiml_fresher",
+      "jd": "peoplex_ai_engineer",
+      "gold_gaps": [
+        "Python",
+        "Prompt Engineering",
+        "RAG",
+        "AI Agents",
+        "Data Pipelines",
+        "Vector Databases",
+        "Docker",
+        "NumPy",
+        "SQL"
+      ],
+      "ambiguous": [
+        "Pandas"
+      ]
+    },
+    {
+      "id": "analyst_vs_concise_fresher",
+      "title": "Junior Data Analyst",
+      "resume": "da_fresher_concise",
+      "jd": "junior_data_analyst",
+      "gold_gaps": [
+        "Excel",
+        "Communication",
+        "Statistics"
+      ],
+      "ambiguous": [
+        "Python",
+        "Pandas",
+        "Data Visualization"
+      ]
+    },
+    {
+      "id": "ds_entry_vs_detailed",
+      "title": "Data Scientist - Entry Level",
+      "resume": "ds_fresher_detailed",
+      "jd": "data_scientist_entry",
+      "gold_gaps": [],
+      "ambiguous": [
+        "Python",
+        "Statistics",
+        "Communication"
+      ]
+    },
+    {
+      "id": "ds_entry_vs_concise_twin",
+      "title": "Data Scientist - Entry Level",
+      "resume": "ds_fresher_concise_twin",
+      "jd": "data_scientist_entry",
+      "gold_gaps": [],
+      "ambiguous": [
+        "Python",
+        "Statistics",
+        "Communication"
+      ],
+      "twin_of": "ds_entry_vs_detailed"
+    },
+    {
+      "id": "genai_vs_junior",
+      "title": "GenAI Engineer",
+      "resume": "genai_junior",
+      "jd": "genai_engineer",
+      "gold_gaps": [
+        "AI Agents",
+        "Docker"
+      ],
+      "ambiguous": [
+        "Python"
+      ]
+    },
+    {
+      "id": "mle_vs_mid_us",
+      "title": "Machine Learning Engineer II",
+      "resume": "mle_mid_us",
+      "jd": "ml_engineer_mid",
+      "gold_gaps": [],
+      "ambiguous": [
+        "Python",
+        "NLP",
+        "Model Monitoring"
+      ]
+    },
+    {
+      "id": "mlops_vs_senior",
+      "title": "Senior MLOps Engineer",
+      "resume": "mlops_senior",
+      "jd": "mlops_engineer_senior",
+      "gold_gaps": [],
+      "ambiguous": [
+        "Kubernetes",
+        "Docker"
+      ]
+    },
+    {
+      "id": "de_vs_switcher",
+      "title": "Data Engineer",
+      "resume": "de_career_switcher",
+      "jd": "data_engineer",
+      "gold_gaps": [
+        "Kafka",
+        "Cloud data warehouses"
+      ],
+      "ambiguous": [
+        "SQL",
+        "Data modelling",
+        "Apache Spark"
+      ]
+    },
+    {
+      "id": "mle_vs_aiml_fresher",
+      "title": "Machine Learning Engineer II",
+      "resume": "aiml_fresher",
+      "jd": "ml_engineer_mid",
+      "gold_gaps": [
+        "PyTorch",
+        "Docker",
+        "REST APIs",
+        "MLOps",
+        "Cloud Computing",
+        "Deep Learning"
+      ],
+      "ambiguous": [
+        "Python",
+        "NLP",
+        "Model Monitoring",
+        "CI/CD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# title: Senior MLOps Engineer
+# role: MLOps Engineer
+# level: senior
+Senior MLOps Engineer - Northbeam Logistics (fictional)
+
+Own the platform that trains, deploys and monitors 50+ production models.
+
+Responsibilities
+- Lead the design of our ML platform on Kubernetes
+- Build CI/CD pipelines for models with automated testing and rollback
+- Run model monitoring and alerting
+- Mentor engineers on MLOps practices
+
+Requirements
+- 5+ years of experience in MLOps, DevOps or platform engineering
+- Expert knowledge of Kubernetes and Docker
+- Infrastructure as code (Terraform)
+- Strong experience with CI/CD
+- Experience with model monitoring (Prometheus, Grafana or similar)
+- Cloud experience (GCP or AWS)

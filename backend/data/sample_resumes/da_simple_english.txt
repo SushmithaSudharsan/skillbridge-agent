@@ -1,0 +1,20 @@
+# title: Data Analyst (simple English, 2 years)
+# role: Data Analyst
+# level: mid
+# style: simple-english
+# identity: Mohammed Faizal | faizal.m@example.com | +91 98950 66778 | University of Kerala | Greenleaf Foods | Thiruvananthapuram
+Mohammed Faizal
+faizal.m@example.com | +91 98950 66778 | Thiruvananthapuram
+
+Work
+Data Analyst, Greenleaf Foods, 2023 - now
+- I make reports for the sales team every week in Power BI.
+- I write SQL to get data from the company database.
+- I clean data in Excel and Python.
+- I explain the numbers to managers in meetings.
+
+Study
+B.Sc Statistics, University of Kerala, 2023
+
+Skills
+Power BI, SQL, Excel, Python, Statistics

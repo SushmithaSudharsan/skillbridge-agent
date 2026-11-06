@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkillBridge</title>
+  <meta name="description" content="Honest resume-to-job gap analysis: what to learn, what to show better, and whether to apply now.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="name">SkillBridge</span>
+      <span class="tagline">Honest resume-to-job gap analysis</span>
+    </div>
+    <span class="chip">Demo · fictional sample resumes only</span>
+  </header>
+
+  <main class="layout">
+    <section class="panel inputs" aria-labelledby="inputs-title">
+      <h1 id="inputs-title">Compare a resume with a job</h1>
+      <p class="muted">Pick a sample resume, paste any job description, and see what's missing, what to show
+        better, and whether to apply now.</p>
+
+      <form id="analyze-form" novalidate>
+        <label class="field" id="code-field">
+          <span>Access code</span>
+          <input id="access-code" type="password" autocomplete="off" placeholder="Shared with you for the demo" required>
+        </label>
+
+        <label class="field">
+          <span>Sample resume</span>
+          <select id="resume-select" required><option value="">Enter the access code first</option></select>
+        </label>
+        <details class="preview" id="resume-preview-wrap">
+          <summary>Preview this resume</summary>
+          <pre id="resume-preview"></pre>
+        </details>
+
+        <div class="field">
+          <div class="field-head">
+            <label for="jd-text">Job description</label>
+            <select id="jd-select" aria-label="Fill with a sample job description">
+              <option value="">Use a sample JD…</option>
+            </select>
+          </div>
+          <textarea id="jd-text" rows="10" placeholder="Paste the full job description here" required></textarea>
+          <span class="hint" id="jd-count">0 characters</span>
+        </div>
+
+        <label class="field">
+          <span>Job title <em>(optional)</em></span>
+          <input id="title" type="text" maxlength="120" placeholder="e.g. Junior Data Scientist">
+        </label>
+
+        <div class="row">
+          <label class="field">
+            <span>Full-time work (years)</span>
+            <input id="years" type="number" min="0" max="50" step="0.5" value="0">
+          </label>
+          <label class="field">
+            <span>Internships (months)</span>
+            <input id="months" type="number" min="0" max="120" step="1" value="0">
+          </label>
+        </div>
+
+        <button class="primary" id="analyze-btn" type="submit">Analyse</button>
+        <p class="error" id="form-error" role="alert" hidden></p>
+      </form>
+
+      <p class="privacy">Names, contacts, universities and employers are masked before the AI sees anything.
+        Results live in memory only and are deleted when you close this tab.</p>
+    </section>
+
+    <section class="results" aria-live="polite">
+      <div class="empty" id="empty-state">
+        <h2>Your analysis will appear here</h2>
+        <ol>
+          <li><b>Fit</b>: is this job a realistic target right now?</li>
+          <li><b>Learn</b>: what's missing, with course areas in the right order</li>
+          <li><b>Show better</b>: what you have but your resume hides</li>
+          <li><b>Your answers</b>: they can change the plan, in both directions</li>
+        </ol>
+      </div>
+
+      <div class="loading" id="loading" hidden>
+        <div class="spinner" aria-hidden="true"></div>
+        <p id="loading-text">Reading the job description…</p>
+      </div>
+
+      <div id="report" hidden>
+        <div class="report-head">
+          <div>
+            <p class="eyebrow" id="r-eyebrow">Analysis</p>
+            <h2 id="r-title"></h2>
+          </div>
+          <div class="actions">
+            <button class="secondary" id="pdf-btn" type="button">Download PDF</button>
+            <button class="ghost" id="end-btn" type="button">End &amp; forget</button>
+          </div>
+        </div>
+
+        <div class="fit" id="fit"></div>
+        <div id="blockers"></div>
+        <div class="tiles" id="tiles"></div>
+        <p class="summary" id="summary"></p>
+
+        <nav class="tabs" role="tablist" aria-label="Report sections">
+          <button role="tab" aria-selected="true" data-tab="learn">Learn</button>
+          <button role="tab" aria-selected="false" data-tab="show">Show better</button>
+          <button role="tab" aria-selected="false" data-tab="strengths">Strengths</button>
+          <button role="tab" aria-selected="false" data-tab="plan">Learning plan</button>
+          <button role="tab" aria-selected="false" data-tab="projects">Projects</button>
+          <button role="tab" aria-selected="false" data-tab="questions">Questions <span class="badge" id="q-count"></span></button>
+        </nav>
+
+        <div class="tab-panel" data-panel="learn"></div>
+        <div class="tab-panel" data-panel="show" hidden></div>
+        <div class="tab-panel" data-panel="strengths" hidden></div>
+        <div class="tab-panel" data-panel="plan" hidden></div>
+        <div class="tab-panel" data-panel="projects" hidden></div>
+        <div class="tab-panel" data-panel="questions" hidden></div>
+
+        <p class="footnote" id="footnote"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

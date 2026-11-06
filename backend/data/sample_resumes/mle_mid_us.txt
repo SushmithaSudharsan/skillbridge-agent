@@ -1,0 +1,21 @@
+# title: ML Engineer (3 years, US format)
+# role: ML Engineer
+# level: mid
+# style: detailed
+# identity: Daniel Brooks | daniel.brooks@example.com | +1 415 555 0142 | University of Washington | Cobalt Health | Seattle
+Daniel Brooks
+daniel.brooks@example.com | +1 415 555 0142 | Seattle, WA
+
+Experience
+Machine Learning Engineer, Cobalt Health, Aug 2022 - present
+- Trained and deployed PyTorch models that classify clinical notes, served behind a FastAPI service in Docker
+- Cut inference latency from 420 ms to 95 ms by exporting models to ONNX
+- Set up MLflow experiment tracking and a GitHub Actions pipeline that retrains and tests models weekly
+- Run batch scoring jobs on AWS (S3, ECS) for 3 million notes a month
+
+Education
+M.S. Computer Science, University of Washington, 2022
+B.S. Mathematics, University of Washington, 2020
+
+Skills
+Python, PyTorch, scikit-learn, Docker, FastAPI, MLflow, AWS, SQL, Git

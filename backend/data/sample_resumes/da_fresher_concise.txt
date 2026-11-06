@@ -1,0 +1,22 @@
+# title: Data Analyst (fresher, concise style)
+# role: Data Analyst
+# level: fresher
+# style: concise
+# identity: Ananya Iyer | ananya.iyer@example.com | +91 98450 12345 | Christ University | Zylo Retail | Bengaluru
+Ananya Iyer
+ananya.iyer@example.com | +91 98450 12345 | Bengaluru
+
+Education
+B.Com (Business Analytics), Christ University, 2025
+
+Experience
+Data Analyst Intern, Zylo Retail (3 months)
+- Built weekly sales dashboards in Power BI
+- Wrote SQL queries to pull store sales data
+
+Projects
+- Customer churn analysis in Excel using pivot tables
+- Sales trend report with Python and Pandas
+
+Skills
+SQL, Excel, Power BI, Python, Pandas

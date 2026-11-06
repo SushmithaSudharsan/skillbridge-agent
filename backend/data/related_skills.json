@@ -1,0 +1,91 @@
+{
+ "_comment": "Tools that transfer partly to their peers. Used only to say 'related, not the same': never to mark a requirement as met.",
+ "groups": [
+  [
+   "PyTorch",
+   "TensorFlow",
+   "Keras",
+   "JAX"
+  ],
+  [
+   "Power BI",
+   "Tableau",
+   "Looker",
+   "Qlik"
+  ],
+  [
+   "SQL",
+   "MySQL",
+   "PostgreSQL",
+   "SQL Server",
+   "Oracle",
+   "SQLite"
+  ],
+  [
+   "AWS",
+   "Azure",
+   "GCP",
+   "Google Cloud"
+  ],
+  [
+   "Docker",
+   "Podman"
+  ],
+  [
+   "Airflow",
+   "Prefect",
+   "Dagster"
+  ],
+  [
+   "Apache Spark",
+   "Spark",
+   "PySpark",
+   "Databricks"
+  ],
+  [
+   "Kafka",
+   "Apache Kafka",
+   "RabbitMQ",
+   "Kinesis"
+  ],
+  [
+   "LangChain",
+   "LlamaIndex"
+  ],
+  [
+   "Pinecone",
+   "Weaviate",
+   "Chroma",
+   "FAISS",
+   "Qdrant"
+  ],
+  [
+   "MLflow",
+   "Weights & Biases"
+  ],
+  [
+   "GitHub Actions",
+   "Jenkins",
+   "GitLab CI"
+  ],
+  [
+   "FastAPI",
+   "Flask",
+   "Django"
+  ],
+  [
+   "React",
+   "Vue",
+   "Angular"
+  ],
+  [
+   "Excel",
+   "Google Sheets"
+  ],
+  [
+   "Scikit-learn",
+   "XGBoost",
+   "LightGBM"
+  ]
+ ]
+}
