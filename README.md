@@ -4,8 +4,6 @@
 
 It never tells you to add skills you don't have. No keyword stuffing.
 
-> **Demo:** _link here_ · **Video:** _link here_ (the demo uses fictional sample resumes only)
-
 ---
 
 ## Why this exists
