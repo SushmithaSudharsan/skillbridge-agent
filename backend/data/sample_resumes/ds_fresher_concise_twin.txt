@@ -1,0 +1,24 @@
+# title: Data Scientist (fresher, same facts written briefly)
+# role: Data Scientist
+# level: fresher
+# style: concise
+# twin_of: ds_fresher_detailed
+# identity: Rohan Kulkarni | rohan.kulkarni@example.com | +91 99870 22334 | Vellore Institute of Technology | Northwind Analytics | Pune
+Rohan Kulkarni
+rohan.kulkarni@example.com | +91 99870 22334 | Pune
+
+Education
+B.Tech CSE (Data Science), Vellore Institute of Technology, 2025
+
+Experience
+Data Science Intern, Northwind Analytics (6 months)
+- Churn model, Python + scikit-learn + XGBoost, recall 0.61 to 0.74
+- A/B test of onboarding email, z-test, +2.1 pt activation
+- SQL (PostgreSQL) training tables
+
+Projects
+- Weekly demand forecasting, Prophet + LightGBM
+- Credit risk logistic regression, Pandas, scikit-learn
+
+Skills
+Python, SQL, Pandas, NumPy, scikit-learn, XGBoost, Statistics, A/B testing, Git

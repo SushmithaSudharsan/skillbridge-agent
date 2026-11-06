@@ -1,0 +1,22 @@
+# title: GenAI Engineer
+# role: GenAI Engineer
+# level: fresher
+GenAI Engineer - Quillstack (fictional)
+
+Build LLM features that help support teams answer customers faster.
+
+Responsibilities
+- Build retrieval-augmented generation (RAG) pipelines over company documents
+- Design prompts and evaluate LLM outputs with test sets
+- Ship features behind REST APIs
+
+Requirements
+- 1+ year of experience building with LLMs (internships count)
+- Strong Python
+- Hands-on experience with RAG and vector databases
+- Experience with LangChain or LlamaIndex
+- Experience evaluating LLM applications
+
+Nice to have
+- AI agents and tool calling
+- Docker

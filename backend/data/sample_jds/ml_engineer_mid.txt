@@ -1,0 +1,23 @@
+# title: Machine Learning Engineer II
+# role: ML Engineer
+# level: mid
+Machine Learning Engineer II - Helix Health AI (fictional)
+
+You will take models from notebooks to production for our clinical text products.
+
+What you'll do
+- Train and fine-tune deep learning models with PyTorch
+- Package models as services with Docker and REST APIs
+- Build CI/CD and experiment tracking for model releases
+- Monitor models in production for drift and latency
+
+Requirements
+- 3+ years of experience in machine learning engineering
+- Strong Python and PyTorch
+- Experience with Docker and REST APIs
+- Experience with MLOps tooling (MLflow or similar)
+- Experience with a cloud platform (AWS, GCP or Azure)
+
+Nice to have
+- Model optimisation (ONNX, quantisation)
+- NLP experience

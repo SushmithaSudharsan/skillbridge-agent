@@ -1,0 +1,26 @@
+# title: Data Engineer (career switcher from mechanical engineering)
+# role: Data Engineer
+# level: fresher
+# style: concise
+# identity: Kavya Menon | kavya.menon@example.com | +91 97400 33445 | Anna University | Precision Gears Ltd | Chennai
+Kavya Menon
+kavya.menon@example.com | +91 97400 33445 | Chennai
+
+Summary
+Mechanical engineer moving into data engineering after a 6-month part-time programme.
+
+Experience
+Production Engineer, Precision Gears Ltd, 2021 - 2024
+- Tracked machine downtime in Excel and reported weekly to the plant manager
+- Automated the downtime report with Python scripts, saving 3 hours a week
+
+Projects
+- Built an Airflow pipeline that loads public transport data into PostgreSQL every day
+- Modelled a star schema for the transport data and wrote SQL reports on it
+- Processed 5 GB of trip logs with PySpark on a laptop
+
+Education
+B.E. Mechanical Engineering, Anna University, 2021
+
+Skills
+Python, SQL, PostgreSQL, Airflow, PySpark, Excel

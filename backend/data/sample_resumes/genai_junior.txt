@@ -1,0 +1,22 @@
+# title: GenAI Engineer (1.5 years)
+# role: GenAI Engineer
+# level: fresher
+# style: detailed
+# identity: Meera Nair | meera.nair@example.com | +91 90030 45678 | National Institute of Technology Calicut | Brightlane Software | Kochi
+Meera Nair
+meera.nair@example.com | +91 90030 45678 | Kochi
+
+Experience
+Software Engineer (AI), Brightlane Software, Jan 2024 - present
+- Built a retrieval-augmented support assistant with LangChain, OpenAI models and a pgvector index over 8,000 help articles
+- Wrote an evaluation set of 200 questions and tracked answer accuracy before each prompt change
+- Added a REST API for the assistant with FastAPI
+
+Education
+B.Tech Electronics and Communication, National Institute of Technology Calicut, 2023
+
+Projects
+- Resume parser that extracts skills with an LLM and validates the output with Pydantic
+
+Skills
+Python, LangChain, LLMs, RAG, prompt engineering, PostgreSQL, FastAPI, Git

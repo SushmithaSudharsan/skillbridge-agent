@@ -1,0 +1,24 @@
+# title: Data Scientist - Entry Level
+# role: Data Scientist
+# level: fresher
+Data Scientist (Entry Level) - Orbit Fintech (fictional)
+
+We are looking for an entry-level data scientist to join our risk team.
+
+Responsibilities
+- Build and evaluate classification models for credit risk and churn
+- Design and analyse A/B tests for product changes
+- Present findings to product managers
+
+Requirements
+- Strong Python (Pandas, NumPy, scikit-learn)
+- Solid foundation in statistics and hypothesis testing
+- Experience with SQL
+- Hands-on experience with A/B testing
+- Ability to explain model results to non-technical stakeholders
+
+Preferred
+- Experience with gradient boosting (XGBoost or LightGBM)
+- Internship experience is preferred.
+
+0-2 years of experience, including internships.

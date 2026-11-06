@@ -1,0 +1,887 @@
+{
+  "Python": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Python programming fundamentals",
+        "topics": [
+          "syntax and data types",
+          "functions and modules",
+          "files and error handling",
+          "virtual environments"
+        ]
+      },
+      "2": {
+        "area": "Python for working engineers",
+        "topics": [
+          "classes and dataclasses",
+          "type hints and testing with pytest",
+          "packaging a project",
+          "calling web APIs"
+        ]
+      },
+      "3": {
+        "area": "Advanced Python",
+        "topics": [
+          "concurrency and async",
+          "profiling and performance",
+          "design patterns",
+          "building reusable libraries"
+        ]
+      }
+    }
+  },
+  "SQL": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "SQL fundamentals",
+        "topics": [
+          "SELECT, WHERE and ORDER BY",
+          "joins",
+          "GROUP BY and aggregates"
+        ]
+      },
+      "2": {
+        "area": "Intermediate SQL",
+        "topics": [
+          "window functions",
+          "CTEs and subqueries",
+          "data modelling and indexes"
+        ]
+      },
+      "3": {
+        "area": "Advanced SQL and analytics engineering",
+        "topics": [
+          "query optimisation",
+          "warehouse design",
+          "tested, versioned transformations"
+        ]
+      }
+    }
+  },
+  "Excel": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Excel fundamentals",
+        "topics": [
+          "formulas and formatting",
+          "sorting and filtering",
+          "basic charts"
+        ]
+      },
+      "2": {
+        "area": "Excel for analysis",
+        "topics": [
+          "pivot tables",
+          "lookups such as XLOOKUP",
+          "cleaning messy data"
+        ]
+      },
+      "3": {
+        "area": "Advanced Excel",
+        "topics": [
+          "Power Query",
+          "financial and scenario modelling",
+          "automation"
+        ]
+      }
+    }
+  },
+  "Statistics": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Statistics fundamentals",
+        "topics": [
+          "descriptive statistics",
+          "distributions",
+          "probability basics"
+        ]
+      },
+      "2": {
+        "area": "Statistics for data science",
+        "topics": [
+          "hypothesis testing",
+          "confidence intervals",
+          "regression"
+        ]
+      },
+      "3": {
+        "area": "Experimentation and inference",
+        "topics": [
+          "A/B test design",
+          "causal inference basics",
+          "Bayesian thinking"
+        ]
+      }
+    }
+  },
+  "Pandas": {
+    "prerequisites": [
+      "Python"
+    ],
+    "levels": {
+      "1": {
+        "area": "Pandas fundamentals",
+        "topics": [
+          "DataFrames and Series",
+          "filtering and selecting",
+          "groupby"
+        ]
+      },
+      "2": {
+        "area": "Data wrangling with Pandas",
+        "topics": [
+          "merging and reshaping",
+          "time series",
+          "cleaning messy data"
+        ]
+      },
+      "3": {
+        "area": "Pandas at scale",
+        "topics": [
+          "vectorisation and performance",
+          "memory optimisation",
+          "Polars or Dask for large data"
+        ]
+      }
+    }
+  },
+  "NumPy": {
+    "prerequisites": [
+      "Python"
+    ],
+    "levels": {
+      "1": {
+        "area": "NumPy fundamentals",
+        "topics": [
+          "arrays and indexing",
+          "broadcasting",
+          "basic maths on arrays"
+        ]
+      },
+      "2": {
+        "area": "Numerical computing with NumPy",
+        "topics": [
+          "linear algebra",
+          "vectorised algorithms",
+          "random sampling"
+        ]
+      },
+      "3": {
+        "area": "High-performance NumPy",
+        "topics": [
+          "memory layout",
+          "avoiding copies",
+          "integrating compiled code"
+        ]
+      }
+    }
+  },
+  "Data Visualization": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Data visualization basics",
+        "topics": [
+          "choosing the right chart",
+          "matplotlib and seaborn basics",
+          "labelling and readability"
+        ]
+      },
+      "2": {
+        "area": "Data storytelling",
+        "topics": [
+          "building a narrative with charts",
+          "dashboards",
+          "visualizing uncertainty"
+        ]
+      },
+      "3": {
+        "area": "Advanced visualization",
+        "topics": [
+          "interactive visualizations",
+          "dashboard design systems",
+          "visualization for executives"
+        ]
+      }
+    }
+  },
+  "Power BI": {
+    "prerequisites": [
+      "Excel"
+    ],
+    "levels": {
+      "1": {
+        "area": "Power BI fundamentals",
+        "topics": [
+          "importing data",
+          "building visuals",
+          "publishing a report"
+        ]
+      },
+      "2": {
+        "area": "Power BI data modelling",
+        "topics": [
+          "star schemas",
+          "DAX measures",
+          "drill-through and filters"
+        ]
+      },
+      "3": {
+        "area": "Enterprise Power BI",
+        "topics": [
+          "performance tuning",
+          "row-level security",
+          "deployment pipelines"
+        ]
+      }
+    }
+  },
+  "Machine Learning": {
+    "prerequisites": [
+      "Python",
+      "Statistics"
+    ],
+    "levels": {
+      "1": {
+        "area": "Machine learning fundamentals",
+        "topics": [
+          "supervised and unsupervised learning",
+          "train/test splits",
+          "regression and classification",
+          "evaluation metrics"
+        ]
+      },
+      "2": {
+        "area": "Applied machine learning",
+        "topics": [
+          "feature engineering",
+          "cross-validation and tuning",
+          "ensembles such as XGBoost",
+          "imbalanced data"
+        ]
+      },
+      "3": {
+        "area": "Advanced machine learning",
+        "topics": [
+          "model interpretability",
+          "ML system design",
+          "drift and retraining strategy"
+        ]
+      }
+    }
+  },
+  "Scikit-learn": {
+    "prerequisites": [
+      "Python"
+    ],
+    "levels": {
+      "1": {
+        "area": "Scikit-learn fundamentals",
+        "topics": [
+          "estimators and fit/predict",
+          "preprocessing",
+          "simple pipelines"
+        ]
+      },
+      "2": {
+        "area": "Scikit-learn pipelines",
+        "topics": [
+          "column transformers",
+          "model selection and grid search",
+          "persisting models"
+        ]
+      },
+      "3": {
+        "area": "Production scikit-learn",
+        "topics": [
+          "custom estimators",
+          "reproducible pipelines",
+          "serving models"
+        ]
+      }
+    }
+  },
+  "Deep Learning": {
+    "prerequisites": [
+      "Machine Learning"
+    ],
+    "levels": {
+      "1": {
+        "area": "Deep learning fundamentals",
+        "topics": [
+          "neural network basics",
+          "backpropagation",
+          "training loops"
+        ]
+      },
+      "2": {
+        "area": "Applied deep learning",
+        "topics": [
+          "CNNs and transformers",
+          "regularisation",
+          "transfer learning"
+        ]
+      },
+      "3": {
+        "area": "Advanced deep learning",
+        "topics": [
+          "training at scale",
+          "distributed training",
+          "fine-tuning large models"
+        ]
+      }
+    }
+  },
+  "PyTorch": {
+    "prerequisites": [
+      "Python"
+    ],
+    "levels": {
+      "1": {
+        "area": "PyTorch fundamentals",
+        "topics": [
+          "tensors and autograd",
+          "a simple training loop",
+          "saving models"
+        ]
+      },
+      "2": {
+        "area": "PyTorch in practice",
+        "topics": [
+          "custom datasets and modules",
+          "GPU training",
+          "checkpointing and logging"
+        ]
+      },
+      "3": {
+        "area": "Advanced PyTorch",
+        "topics": [
+          "mixed precision",
+          "distributed training",
+          "exporting with ONNX"
+        ]
+      }
+    }
+  },
+  "LLMs": {
+    "prerequisites": [
+      "Python"
+    ],
+    "levels": {
+      "1": {
+        "area": "Fundamentals of LLMs",
+        "topics": [
+          "how LLMs work: tokens and context windows",
+          "calling an LLM API",
+          "cost and latency basics"
+        ]
+      },
+      "2": {
+        "area": "Building with LLMs",
+        "topics": [
+          "structured output",
+          "tool and function calling",
+          "hallucination and context limits"
+        ]
+      },
+      "3": {
+        "area": "LLM systems design",
+        "topics": [
+          "fine-tuning vs RAG trade-offs",
+          "serving and caching",
+          "cost and latency optimisation"
+        ]
+      }
+    }
+  },
+  "Prompt Engineering": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Prompt engineering fundamentals",
+        "topics": [
+          "clear instructions",
+          "few-shot examples",
+          "output formats"
+        ]
+      },
+      "2": {
+        "area": "Prompt engineering in practice",
+        "topics": [
+          "testing and iterating prompts",
+          "system prompts",
+          "defending against prompt injection"
+        ]
+      },
+      "3": {
+        "area": "Advanced prompt engineering",
+        "topics": [
+          "evaluation-driven prompt design",
+          "prompt optimisation at scale",
+          "prompt versioning"
+        ]
+      }
+    }
+  },
+  "RAG": {
+    "prerequisites": [
+      "LLMs"
+    ],
+    "levels": {
+      "1": {
+        "area": "Fundamentals of RAG",
+        "topics": [
+          "embeddings",
+          "chunking documents",
+          "retrieve-then-generate"
+        ]
+      },
+      "2": {
+        "area": "Building RAG applications",
+        "topics": [
+          "vector and hybrid search",
+          "re-ranking",
+          "answers with citations"
+        ]
+      },
+      "3": {
+        "area": "Advanced RAG",
+        "topics": [
+          "evaluating retrieval quality",
+          "query rewriting",
+          "agentic RAG"
+        ]
+      }
+    }
+  },
+  "LangChain": {
+    "prerequisites": [
+      "Python"
+    ],
+    "levels": {
+      "1": {
+        "area": "LangChain fundamentals",
+        "topics": [
+          "chat models and prompts",
+          "simple chains",
+          "document loaders"
+        ]
+      },
+      "2": {
+        "area": "Agents with LangChain and LangGraph",
+        "topics": [
+          "tools and create_agent",
+          "structured output",
+          "LangGraph state and edges"
+        ]
+      },
+      "3": {
+        "area": "Production LangGraph",
+        "topics": [
+          "custom graphs",
+          "middleware and guardrails",
+          "persistence and human-in-the-loop"
+        ]
+      }
+    }
+  },
+  "AI Agents": {
+    "prerequisites": [
+      "LLMs"
+    ],
+    "levels": {
+      "1": {
+        "area": "Fundamentals of AI agents",
+        "topics": [
+          "the tool-calling loop",
+          "the ReAct pattern",
+          "step limits"
+        ]
+      },
+      "2": {
+        "area": "Agentic workflows",
+        "topics": [
+          "planning and routing",
+          "state and memory",
+          "error handling and retries"
+        ]
+      },
+      "3": {
+        "area": "Multi-agent systems",
+        "topics": [
+          "supervisors and subagents",
+          "human-in-the-loop",
+          "evaluating agents"
+        ]
+      }
+    }
+  },
+  "LLM Evaluation": {
+    "prerequisites": [
+      "LLMs"
+    ],
+    "levels": {
+      "1": {
+        "area": "LLM evaluation fundamentals",
+        "topics": [
+          "building a test set",
+          "code-based checks",
+          "basic metrics"
+        ]
+      },
+      "2": {
+        "area": "Evaluating LLM applications",
+        "topics": [
+          "LLM-as-judge with rubrics",
+          "calibrating judges against people",
+          "regression testing"
+        ]
+      },
+      "3": {
+        "area": "LLM evaluation at scale",
+        "topics": [
+          "online evaluation",
+          "judge bias",
+          "evaluation gates in CI"
+        ]
+      }
+    }
+  },
+  "Git": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Git fundamentals",
+        "topics": [
+          "commits",
+          "branches",
+          "push and pull"
+        ]
+      },
+      "2": {
+        "area": "Git for teams",
+        "topics": [
+          "pull requests and reviews",
+          "rebasing",
+          "resolving conflicts"
+        ]
+      },
+      "3": {
+        "area": "Advanced Git",
+        "topics": [
+          "repository strategy",
+          "hooks and automation",
+          "history clean-up"
+        ]
+      }
+    }
+  },
+  "Docker": {
+    "prerequisites": [
+      "Linux"
+    ],
+    "levels": {
+      "1": {
+        "area": "Docker fundamentals",
+        "topics": [
+          "images and containers",
+          "writing a Dockerfile",
+          "running and inspecting containers"
+        ]
+      },
+      "2": {
+        "area": "Docker for applications",
+        "topics": [
+          "multi-stage builds",
+          "Docker Compose",
+          "networks and volumes"
+        ]
+      },
+      "3": {
+        "area": "Production containers",
+        "topics": [
+          "image security",
+          "resource limits",
+          "Kubernetes basics"
+        ]
+      }
+    }
+  },
+  "REST APIs": {
+    "prerequisites": [
+      "Python"
+    ],
+    "levels": {
+      "1": {
+        "area": "REST API fundamentals",
+        "topics": [
+          "HTTP methods and status codes",
+          "building endpoints with FastAPI",
+          "JSON request and response"
+        ]
+      },
+      "2": {
+        "area": "Production APIs",
+        "topics": [
+          "validation and error handling",
+          "authentication",
+          "async endpoints and testing"
+        ]
+      },
+      "3": {
+        "area": "API design at scale",
+        "topics": [
+          "versioning",
+          "rate limiting",
+          "observability"
+        ]
+      }
+    }
+  },
+  "Cloud Computing": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Cloud fundamentals",
+        "topics": [
+          "compute and storage",
+          "identity and access",
+          "deploying a simple app"
+        ]
+      },
+      "2": {
+        "area": "Cloud for ML applications",
+        "topics": [
+          "managed ML and container services",
+          "networking and security basics",
+          "cost control"
+        ]
+      },
+      "3": {
+        "area": "Cloud architecture",
+        "topics": [
+          "designing for reliability",
+          "infrastructure as code",
+          "multi-environment setups"
+        ]
+      }
+    }
+  },
+  "MLOps": {
+    "prerequisites": [
+      "Machine Learning",
+      "Docker"
+    ],
+    "levels": {
+      "1": {
+        "area": "MLOps fundamentals",
+        "topics": [
+          "experiment tracking with MLflow",
+          "packaging a model",
+          "reproducibility"
+        ]
+      },
+      "2": {
+        "area": "MLOps in practice",
+        "topics": [
+          "training pipelines and automated retraining",
+          "model registry",
+          "deployment patterns"
+        ]
+      },
+      "3": {
+        "area": "MLOps at scale",
+        "topics": [
+          "feature stores",
+          "governance and lineage",
+          "platform design"
+        ]
+      }
+    }
+  },
+  "CI/CD": {
+    "prerequisites": [
+      "Git"
+    ],
+    "levels": {
+      "1": {
+        "area": "CI/CD fundamentals",
+        "topics": [
+          "GitHub Actions basics",
+          "running tests on every push",
+          "build artefacts"
+        ]
+      },
+      "2": {
+        "area": "CI/CD pipelines",
+        "topics": [
+          "build and deploy stages",
+          "environments and secrets",
+          "pipeline caching"
+        ]
+      },
+      "3": {
+        "area": "Advanced delivery",
+        "topics": [
+          "canary and blue-green releases",
+          "pipeline security",
+          "release automation"
+        ]
+      }
+    }
+  },
+  "Model Monitoring": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Monitoring fundamentals",
+        "topics": [
+          "logs and metrics",
+          "dashboards with Prometheus and Grafana",
+          "alerts"
+        ]
+      },
+      "2": {
+        "area": "Model monitoring in practice",
+        "topics": [
+          "data and concept drift",
+          "performance monitoring",
+          "alerting rules"
+        ]
+      },
+      "3": {
+        "area": "Monitoring at scale",
+        "topics": [
+          "LLM observability and tracing",
+          "SLOs",
+          "incident response"
+        ]
+      }
+    }
+  },
+  "Linux": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Linux command line",
+        "topics": [
+          "navigating the shell",
+          "files and permissions",
+          "processes"
+        ]
+      },
+      "2": {
+        "area": "Linux for engineers",
+        "topics": [
+          "bash scripting",
+          "networking tools",
+          "package management"
+        ]
+      },
+      "3": {
+        "area": "Linux administration",
+        "topics": [
+          "system services",
+          "performance tuning",
+          "security hardening"
+        ]
+      }
+    }
+  },
+  "Communication": {
+    "prerequisites": [],
+    "levels": {
+      "1": {
+        "area": "Technical communication basics",
+        "topics": [
+          "explaining your work clearly",
+          "concise written updates",
+          "documenting decisions"
+        ]
+      },
+      "2": {
+        "area": "Data storytelling and presenting",
+        "topics": [
+          "presenting to stakeholders",
+          "writing for non-technical readers",
+          "handling questions"
+        ]
+      },
+      "3": {
+        "area": "Influence and leadership",
+        "topics": [
+          "driving decisions",
+          "mentoring others",
+          "cross-team communication"
+        ]
+      }
+    }
+  },
+  "Vector Databases": {
+    "prerequisites": [
+      "LLMs"
+    ],
+    "levels": {
+      "1": {
+        "area": "Vector database fundamentals",
+        "topics": [
+          "embeddings and similarity search",
+          "using FAISS or Chroma",
+          "storing metadata"
+        ]
+      },
+      "2": {
+        "area": "Vector databases in practice",
+        "topics": [
+          "indexes such as HNSW",
+          "metadata filtering",
+          "managed vector databases"
+        ]
+      },
+      "3": {
+        "area": "Vector search at scale",
+        "topics": [
+          "hybrid search",
+          "sharding and scaling",
+          "cost and latency tuning"
+        ]
+      }
+    }
+  },
+  "Data Pipelines": {
+    "prerequisites": [
+      "Python",
+      "SQL"
+    ],
+    "levels": {
+      "1": {
+        "area": "Data pipeline fundamentals",
+        "topics": [
+          "ETL concepts",
+          "scheduling jobs",
+          "handling bad records"
+        ]
+      },
+      "2": {
+        "area": "Orchestrated pipelines",
+        "topics": [
+          "Apache Airflow",
+          "data quality checks",
+          "idempotent jobs"
+        ]
+      },
+      "3": {
+        "area": "Data pipelines at scale",
+        "topics": [
+          "streaming data",
+          "reliability and backfills",
+          "cost-aware design"
+        ]
+      }
+    }
+  }
+}
